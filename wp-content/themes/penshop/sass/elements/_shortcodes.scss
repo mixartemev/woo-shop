@@ -1,0 +1,2352 @@
+.vc_row {
+	background-position: center center;
+
+	.wpb_content_element {
+		margin-bottom: 0;
+	}
+
+	> .container-fluid.no-gutter {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	&.vc_row-flex {
+		> .container,
+		> .container-fluid {
+			box-sizing: border-box;
+			display: flex;
+			flex-wrap: wrap;
+
+			> .vc_column_container {
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+
+				> .vc_column-inner {
+					flex-grow: 1;
+					display: flex;
+					flex-direction: column;
+					z-index: 1;
+
+					@media (-ms-high-contrast: active), (-ms-high-contrast: none) {
+						/* IE10+ specific styles */
+						& > * {
+							min-height: 1em;
+						}
+					}
+				}
+			}
+
+			&::before,
+			&::after {
+				display: none;
+			}
+		}
+
+		> .container-fluid {
+			width: 100%;
+		}
+	}
+
+	// columns alignment
+	&.vc_row-o-columns-stretch > .container,
+	&.vc_row-o-columns-stretch > .container-fluid {
+		align-content: stretch;
+	}
+	&.vc_row-o-columns-top > .container,
+	&.vc_row-o-columns-top > .container-fluid {
+		align-content: flex-start;
+	}
+	&.vc_row-o-columns-bottom > .container,
+	&.vc_row-o-columns-bottom > .container-fluid {
+		align-content: flex-end;
+	}
+	&.vc_row-o-columns-middle > .container,
+	&.vc_row-o-columns-middle > .container-fluid {
+		align-content: center;
+	}
+	&.vc_row-o-columns-top,
+	&.vc_row-o-columns-bottom,
+	&.vc_row-o-columns-middle {
+		> .container,
+		> .container-fluid {
+			&::after {
+				content: '';
+				width: 100%;
+				height: 0;
+				overflow: hidden;
+				visibility: hidden;
+				display: block;
+			}
+		}
+	}
+
+	// equal height
+	&.vc_row-o-equal-height {
+		> .container,
+		> .container-fluid {
+			> .vc_column_container {
+				align-items: stretch;
+			}
+		}
+	}
+
+	// content alignment
+	&.vc_row-o-content-top {
+		> .container,
+		> .container-fluid {
+			> .vc_column_container {
+				> .vc_column-inner {
+					justify-content: flex-start;
+				}
+			}
+		}
+
+		&:not(.vc_row-o-equal-height) {
+			> .container,
+			> .container-fluid {
+				> .vc_column_container {
+					align-items: flex-start;
+				}
+			}
+		}
+	}
+	&.vc_row-o-content-bottom {
+		> .container,
+		> .container-fluid {
+			> .vc_column_container {
+				> .vc_column-inner {
+					justify-content: flex-end;
+				}
+			}
+		}
+
+		&:not(.vc_row-o-equal-height) {
+			> .container,
+			> .container-fluid {
+				> .vc_column_container {
+					align-items: flex-end;
+				}
+			}
+		}
+	}
+	&.vc_row-o-content-middle {
+		> .container,
+		> .container-fluid {
+			> .vc_column_container {
+				> .vc_column-inner {
+					justify-content: center;
+				}
+			}
+		}
+
+		&:not(.vc_row-o-equal-height) {
+			> .container,
+			> .container-fluid {
+				> .vc_column_container {
+					align-items: center;
+				}
+			}
+
+		}
+	}
+
+	&.vc_column-gap-1 { @include column-gap(1); }
+	&.vc_column-gap-2 { @include column-gap(2); }
+	&.vc_column-gap-3 { @include column-gap(3); }
+	&.vc_column-gap-4 { @include column-gap(4); }
+	&.vc_column-gap-5 { @include column-gap(5); }
+	&.vc_column-gap-10 { @include column-gap(10); }
+	&.vc_column-gap-15 { @include column-gap(15); }
+	&.vc_column-gap-20 { @include column-gap(20); }
+	&.vc_column-gap-25 { @include column-gap(25); }
+	&.vc_column-gap-30 { @include column-gap(30); }
+	&.vc_column-gap-35 { @include column-gap(35); }
+}
+
+.site-content {
+	.vc_col-has-fill > .vc_column-inner,
+	.vc_row-has-fill + .vc_row-full-width + .vc_row > .vc_column_container > .vc_column-inner,
+	.vc_row-has-fill + .vc_row > .vc_column_container > .vc_column-inner,
+	.vc_row-has-fill + .vc_vc_row > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+	.vc_row-has-fill + .vc_vc_row_inner > .vc_row > .vc_vc_column_inner > .vc_column_container > .vc_column-inner,
+	.vc_row-has-fill > .vc_column_container > .vc_column-inner,
+	.vc_row-has-fill > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+	.vc_row-has-fill > .vc_vc_column_inner > .vc_column_container > .vc_column-inner,
+	.vc_section.vc_section-has-fill,
+	.vc_section.vc_section-has-fill + .vc_row-full-width + .vc_section,
+	.vc_section.vc_section-has-fill + .vc_section {
+		padding-top: 0;
+	}
+
+	.vc_column-inner {
+		background-repeat: no-repeat;
+	}
+}
+
+.vc_custom_heading {
+	@include font-size(3);
+	color: $color__primary;
+	font-family: $font__heading;
+	line-height: 1.2;
+	margin: 0 0 15px;
+}
+
+h1.vc_custom_heading { @include font-size(4); }
+h2.vc_custom_heading { @include font-size(3); }
+h3.vc_custom_heading { @include font-size(2.4); }
+h4.vc_custom_heading { @include font-size(1.8); }
+h5.vc_custom_heading { @include font-size(1.4); }
+h6.vc_custom_heading { @include font-size(1.2); }
+
+.penshop-icon-box {
+	margin-bottom: 30px;
+
+	i,
+	i:before {
+		@include font-size(4.8);
+	}
+
+	i {
+		color: $color__primary;
+	}
+
+	.box-title {
+		@include font-size(1.8);
+		text-transform: uppercase;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+
+	&.icon-left {
+		.box-icon {
+			float: left;
+			width: 100px;
+			padding: 30px 30px 0 0;
+			text-align: center;
+		}
+
+		.box-title,
+		.box-content {
+			padding-left: 100px;
+		}
+	}
+
+	&.icon-top {
+		text-align: center;
+
+		.box-icon {
+			margin-bottom: 20px;
+		}
+
+		.box-title {
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.penshop-newsletter {
+	text-align: center;
+
+	.newsletter-box {
+		box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+		padding-top: 50px;
+		padding-bottom: 60px;
+		background-color: #fff;
+	}
+
+	.newsletter-text {
+		width: 50%;
+		margin: 0 auto;
+		padding-bottom: 25px;
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin-top: 0;
+		}
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.newsletter-form {
+		width: 70%;
+		max-width: 770px;
+		margin: 0 auto;
+	}
+
+	.mc4wp-form {
+		position: relative;
+
+		label {
+			width: 100%;
+		}
+
+		::-webkit-input-placeholder {
+			@include font-size(1.2);
+			color: #888888;
+			font-weight: 400;
+			text-transform: capitalize;
+		}
+	}
+
+	.mc4wp-form-fields {
+		display: flex;
+
+		input[type=text],
+		input[type=email] {
+			flex: 1;
+		}
+
+		input[type=submit] {
+			@include font-size(1.4);
+			font-weight: 600;
+			color: #fff;
+			text-transform: uppercase;
+			font-family: $font__heading;
+			border: 0;
+			background-color: $color__primary;
+			transition: 0.3s;
+
+			&:hover {
+				background-color: $color__active;
+			}
+		}
+	}
+
+	&.style-shadow {
+		background-color: #eeeeee;
+		padding: 30px;
+	}
+
+	&.style-border {
+		.newsletter-box {
+			box-shadow: none;
+			border: 1px solid $color__border;
+		}
+	}
+
+	&.style-flat {
+		.newsletter-box {
+			box-shadow: none;
+			padding: 0;
+		}
+	}
+}
+
+.penshop-faq {
+	border: 1px solid #dedede;
+	padding: 30px 40px;
+	margin-bottom: 40px;
+
+	.faq {
+		position: relative;
+	}
+
+	h3 {
+		margin: 0;
+		@include font-size(2.4);
+		font-weight: 600;
+		line-height: 1.3;
+		cursor: pointer;
+	}
+
+	.faq-icon {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		background-color: #fff;
+		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+		position: absolute;
+		right: -61px;
+		bottom: 25px;
+		border-radius: 50%;
+		text-align: center;
+		cursor: pointer;
+
+		&:before,
+		&:after {
+			font-family: Fontawesome;
+			@include font-size(1.8);
+		}
+
+		&:before {
+			content: '\f106';
+			display: none;
+		}
+
+		&:after {
+			content: '\f107';
+		}
+	}
+
+	.faq-content {
+		display: none;
+		padding-top: 20px;
+	}
+
+	&.open {
+		.faq-icon {
+			&:before {
+				display: block;
+			}
+
+			&:after {
+				display: none;
+			}
+		}
+
+		.faq-content {
+			display: block;
+		}
+	}
+}
+
+.penshop-button {
+	font-weight: 700;
+	color: $color__primary;
+	font-family: $font__heading;
+	text-align: center;
+	display: inline-block;
+	padding: 0 10px;
+	text-transform: uppercase;
+	position: relative;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+
+	&.button-color-white {
+		color: #fff;
+		border-color: #fff;
+	}
+
+	&.align-left {
+		float: left;
+	}
+
+	&.align-right {
+		float: right;
+	}
+
+	&.button-size-small {
+		@include font-size(1.2);
+		line-height: 30px;
+
+		&.button-type-outline {
+			line-height: 26px;
+		}
+	}
+
+	&.button-size-normal {
+		@include font-size(1.4);
+		line-height: 40px;
+
+		&.button-type-outline {
+			line-height: 36px;
+		}
+	}
+
+	&.button-size-large {
+		@include font-size(1.8);
+		line-height: 50px;
+
+		&.button-type-outline {
+			line-height: 46px;
+		}
+	}
+
+	&.button-size-xlarge {
+		@include font-size(2.4);
+		line-height: 60px;
+
+		&.button-type-outline {
+			line-height: 56px;
+		}
+	}
+
+	&.button-type-normal {
+		color: #fff;
+		background: $color__primary;
+
+		&:hover {
+			background-color: $color__active;
+		}
+
+		&.button-color-white {
+			color: $color__primary;
+			background: #fff;
+
+			&:hover {
+				color: #fff;
+				background-color: $color__active;
+			}
+		}
+
+		&.button-size-small {
+			line-height: 33px;
+		}
+	}
+
+	&.button-type-outline {
+		padding-left: 12px;
+		padding-right: 12px;
+		border: 2px solid;
+	}
+
+	&:hover {
+		color: #fff;
+		border-color: $color__active;
+		background-color: $color__active;
+	}
+
+	&.button-type-underline {
+		line-height: 2;
+		height: auto;
+		padding: 0;
+
+		&:before,
+		&:after {
+			color: inherit;
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			border-bottom: 2px solid;
+			transition: transform 0.3s linear;
+		}
+
+		&:after {
+			border-color: $color__active;
+			transform: scaleX(0);
+			transform-origin: center center;
+		}
+
+		&:hover {
+			color: $color__active;
+			background: transparent;
+
+			&:after {
+				transform: scaleX(1);
+			}
+		}
+	}
+
+	&.button-type-arrow {
+		padding-left: 0;
+		padding-right: 0;
+
+		&:after {
+			transition: transform 0.3s linear;
+			display: inline-block;
+			content: '\f178';
+			font-family: Fontawesome;
+			margin-left: 10px;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		&:hover {
+			color: $color__active;
+			background: transparent;
+
+			&:after {
+				transform: translateX(5px);
+			}
+		}
+
+		&.button-size-xlarge:after {
+			margin-left: 20px;
+		}
+	}
+}
+
+.penshop-form {
+	p {
+		margin-top: 0;
+		margin-bottom: 30px;
+
+		&.single-field {
+			margin-bottom: 20px;
+		}
+	}
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		width: 100%;
+		padding: 10px 20px;
+		background-color: transparent;
+		transition: 0.3s;
+	}
+
+	textarea {
+		height: 120px;
+	}
+
+	input[type="submit"] {
+		@include font-size(1.4);
+		color: #fff;
+		font-weight: 600;
+		box-shadow: none;
+		min-width: 90px;
+		min-height: 40px;
+		line-height: 39px;
+		padding: 0 15px;
+		background: $color__primary;
+		border: none;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: darken(desaturate($color__primary, 3.7001), 2.7451);
+		}
+	}
+
+	::-webkit-input-placeholder {
+		@include font-size(1.2);
+		color: #888888;
+		font-weight: 400;
+		text-transform: capitalize;
+	}
+}
+
+div.penshop-contact-form {
+	padding-left: 60px;
+
+	.contact-title {
+		font-weight: 400;
+	}
+}
+
+.penshop-product-carousel {
+	ul.products {
+		width: auto;
+		margin-left: -15px;
+		margin-right: -15px;
+
+		.owl-item .product {
+			width: 100%;
+			margin-bottom: 0;
+		}
+	}
+
+	&.product-style-2 {
+		.owl-nav {
+			div {
+				top: 50%;
+			}
+		}
+	}
+
+	.owl-nav {
+		div {
+			opacity: 0.26;
+			transition: 0.3s;
+			top: 40%;
+
+			&:hover {
+				opacity: 1;
+			}
+		}
+
+		.owl-prev {
+			left: -60px;
+		}
+
+		.owl-next {
+			right: -60px;
+		}
+	}
+}
+
+.penshop-tabs {
+	.tabs {
+		list-style-type: none;
+		padding: 0;
+		margin: 0 0 40px;
+		text-align: center;
+
+		li {
+			@include font-size(1.2);
+			font-weight: 600;
+			color: $color__primary;
+			font-family: $font__heading;
+			text-transform: uppercase;
+			line-height: 2;
+			cursor: pointer;
+			display: inline-block;
+			padding: 0 10px;
+			margin: 0 10px;
+			transition: 0.3s;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			&.active {
+				color: #fff;
+				background-color: $color__active;
+
+				&:hover {
+					color: #fff;
+				}
+			}
+
+			&:hover {
+				color: $color__active;
+			}
+		}
+	}
+
+	.panels {
+		position: relative;
+	}
+
+	.panel {
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		transition: opacity 0.7s;
+
+		&.active {
+			opacity: 1;
+			display: block;
+			visibility: visible;
+			position: static;
+		}
+	}
+}
+
+.penshop-product-grid {
+	ul.products {
+		margin-left: -15px;
+		margin-right: -15px;
+
+		li.product {
+			margin-bottom: 35px;
+		}
+	}
+
+	.ajax-load-products {
+		position: relative;
+
+		.loading-bubbles {
+			display: inline-block;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			opacity: 0;
+		}
+
+		&.loading {
+			.link-text {
+				opacity: 0;
+			}
+
+			.loading-bubbles {
+				opacity: 1;
+			}
+
+			&:before,
+			&:after {
+				opacity: 0;
+			}
+		}
+
+		&.failed {
+			color: $color__active;
+		}
+	}
+}
+
+.penshop-product-tabs {
+	.tabs {
+		li {
+			height: auto;
+			padding-bottom: 3px;
+			border-bottom: 2px solid transparent;
+		}
+
+		li.active {
+			color: $color__active;
+			background-color: transparent;
+			border-bottom-color: $color__active;
+
+			&:hover {
+				color: $color__active;
+			}
+		}
+	}
+
+	.panels {
+		position: relative;
+
+		&:before,
+		&:after {
+			content: "";
+			position: absolute;
+			z-index: -1;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity 0.7s;
+		}
+
+		&:before {
+			top: 0;
+			left:  0;
+			width: 100%;
+			height: 100%;
+			background: #fff;
+		}
+
+		&:after {
+			top: 150px;
+			left: 50%;
+			margin-left: -20px;
+			width: 40px;
+			height: 40px;
+			background-repeat: no-repeat;
+			background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='loader-1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='40px' height='40px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50;' xml:space='preserve'%3E%3Cpath fill='%23111' d='M43.935,25.145c0-10.318-8.364-18.683-18.683-18.683c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615c8.072,0,14.615,6.543,14.615,14.615H43.935z'%3E%3CanimateTransform attributeType='xml' attributeName='transform' type='rotate' from='0 25 25' to='360 25 25' dur='0.6s' repeatCount='indefinite'/%3E%3C/path%3E%3C/svg%3E");
+		}
+
+		&.loading {
+			&:before,
+			&:after {
+				visibility: visible;
+				z-index: 10;
+				opacity: 1;
+			}
+
+			.panel {
+				opacity: 0;
+			}
+		}
+
+		.load-more {
+			margin-top: 10px;
+		}
+	}
+}
+
+.penshop-promotion {
+	color: $color__primary;
+	font-family: $font__heading;
+	font-weight: 700;
+	padding: 45px;
+	background: transparent no-repeat right center;
+
+	&.promotion-type-bordered {
+		border: 2px solid $color__primary;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		letter-spacing: 0.1em;
+		line-height: 1.5;
+		margin: 0;
+	}
+
+	h1 {
+		font-size: 2.66667em;
+	}
+
+	h2 {
+		font-size: 2.4em;
+	}
+
+	h3 {
+		font-size: 1.86667em;
+	}
+
+	h4 {
+		font-size: 1.6em;
+	}
+
+	h5 {
+		font-size: 1.2em;
+	}
+
+	h6 {
+		font-size: 1.06667em;
+	}
+
+	p {
+		margin-top: 0;
+	}
+
+	.penshop-button {
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 25px;
+
+		i {
+			margin-left: 10px;
+		}
+
+		&:hover {
+			color: #fff;
+			border-color: $color__primary;
+			background-color: $color__primary;
+		}
+	}
+}
+
+.penshop-shop-categories {
+	text-align: center;
+
+	img {
+		transition: 0.3s;
+	}
+
+	.item-category {
+		position: relative;
+
+
+		&:hover {
+			img {
+				transform: scale(1.1);
+			}
+		}
+	}
+
+	a {
+		display: block;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.category-name {
+		color: #fff;
+		font-family: $font__heading;
+		font-weight: 600;
+	}
+
+	&.gaps-medium {
+		.categories {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+
+		.item-category {
+			padding: 0 15px;
+			margin-bottom: 30px;
+	}
+	}
+
+	&.gaps-small {
+		.categories {
+			margin-left: -2px;
+			margin-right: -2px;
+		}
+
+		.item-category {
+			padding: 0 2px;
+			margin-bottom: 4px;
+		}
+	}
+
+	&.col-2 {
+		.item-category {
+			width: 50%;
+			float: left;
+			@include font-size(4.8);
+		}
+
+		.category-name {
+			font-weight: 400;
+		}
+	}
+
+	&.col-3 {
+		.item-category {
+			width: 33.3333%;
+			float: left;
+			@include font-size(2.4);
+		}
+	}
+
+	&.col-4 {
+		.item-category {
+			width: 25%;
+			float: left;
+			@include font-size(1.8);
+		}
+	}
+
+	&.style-1 {
+		.category-name {
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 100%;
+			letter-spacing: 0.2em;
+		}
+	}
+
+	&.style-2 {
+		.category-name {
+			position: absolute;
+			display: block;
+			background-color: $color__primary;
+			height: 40px;
+			line-height: 42px;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+		}
+	}
+}
+
+.penshop-single-product {
+	position: relative;
+
+	h3 {
+		@include font-size(3.6);
+		margin: 0;
+		padding-bottom: 10px;
+		transform: translateX(-100px);
+	}
+
+	.product-img {
+		width: calc(50% + 15px);
+		float: left;
+	}
+
+	.product-info {
+		width: calc(50% - 15px);
+		float: right;
+		padding-left: 40px;
+		padding-right: 40px;
+		position: absolute;
+		top: 50%;
+		left: calc(50% + 15px);
+		transform: translateY(-50%);
+	}
+
+	&.image-right {
+		.product-img {
+			float: right;
+		}
+
+		.product-info {
+			float: left;
+			text-align: right;
+			left: inherit;
+		}
+
+		h3 {
+			transform: translateX(100px);
+		}
+	}
+}
+
+.penshop-post-grid {
+	text-align: center;
+
+	.post-thumbnail {
+		position: relative;
+		margin-bottom: 12px;
+		overflow: hidden;
+
+		a {
+			display: block;
+			transition: all 0.3s ease-in-out;
+			transform: scale(1);
+		}
+
+		.entry-date {
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			color: #fff;
+			background-color: $color__primary;
+			@include font-size(1.2);
+			padding: 6px 10px;
+			line-height: 1;
+			text-transform: uppercase;
+		}
+	}
+
+	.entry-title {
+		margin-bottom: 2px;
+
+		a {
+			@include font-size(1.8);
+
+			&:hover {
+				color: $color__active;
+			}
+		}
+	}
+
+	.penshop-post-grid__post {
+		margin-bottom: 7px;
+
+		&:hover {
+			.post-thumbnail a {
+				transform: scale(1.06);
+			}
+		}
+	}
+}
+
+.penshop-countdown {
+	color: $color__primary;
+
+	.box {
+		font-family: $font__heading;
+		font-weight: 300;
+		line-height: 30px;
+		text-align: center;
+		display: inline-block;
+		padding: 0 26px;
+		min-width: 100px;
+		text-transform: uppercase;
+
+		&:first-child {
+			padding-left: 0;
+		}
+
+		&:last-child {
+			padding-right: 0;
+		}
+
+		.time {
+			@include font-size(6);
+			display: block;
+			line-height: 1;
+		}
+
+		.title {
+			@include font-size(1.8);
+			display: block;
+			font-weight: 500;
+		}
+	}
+
+	&.white {
+		color: #fff;
+	}
+}
+
+.penshop-banner {
+	font-size: 10px;
+	position: relative;
+	overflow: hidden;
+
+	&:hover {
+		img {
+			transform: scale(1.05);
+		}
+
+		a {
+			color: $color__primary;
+		}
+	}
+
+	img {
+		width: 100%;
+		transition: transform 1s;
+	}
+
+	.banner-title,
+	.banner-subtitle {
+		font-family: $font__heading;
+		line-height: 1.2;
+		display: block;
+	}
+
+	.banner-title {
+		font-size: 3.6em;
+		margin-bottom: 6px;
+	}
+
+	.banner-subtitle {
+		font-size: 2.4em;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-bottom: 35px;
+	}
+
+	.banner-content {
+		position: absolute;
+		padding: 60px;
+	}
+
+	.button.button-size-small.button-type-outline {
+		line-height: 28px;
+		border-width: 1px;
+	}
+
+	&.content-present-inline {
+		.banner-title,
+		.banner-subtitle {
+			font-size: 4.2em;
+			display: inline;
+			margin-bottom: 0;
+			padding: 0 4px;
+		}
+
+		.button-wrapper {
+			display: block;
+			margin-top: 50px;
+		}
+
+		.banner-title {
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+
+		.banner-subtitle {
+			font-weight: 400;
+			text-transform: none;
+		}
+	}
+
+	&.dark {
+		.button-type-outline:hover {
+			color: #fff;
+			border-color: $color__primary;
+			background-color: $color__primary;
+		}
+	}
+
+	&.white {
+		a,
+		a:hover {
+			color: #fff;
+		}
+
+		.banner-title,
+		.banner-subtitle {
+			text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+		}
+
+		.penshop-button:hover {
+			color: $color__primary;
+			border-color: #fff;
+			background-color: #fff;
+		}
+	}
+
+	&.banner-top-left .banner-content {
+		top: 0;
+		left: 0;
+	}
+
+	&.banner-top-center .banner-content {
+		top: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+
+	&.banner-top-right .banner-content {
+		top: 0;
+		right: 0;
+		text-align: right;
+	}
+
+	&.banner-middle-left .banner-content {
+		top: 50%;
+		left: 0;
+		transform: translateY(-50%);
+	}
+
+	&.banner-middle-center .banner-content {
+		top: 50%;
+		left: 0;
+		right: 0;
+		transform: translateY(-50%);
+		text-align: center;
+	}
+
+	&.banner-middle-right .banner-content {
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+		text-align: right;
+	}
+
+	&.banner-bottom-left .banner-content {
+		bottom: 0;
+		left: 0;
+	}
+
+	&.banner-bottom-center .banner-content {
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+
+	&.banner-bottom-right .banner-content {
+		bottom: 0;
+		right: 0;
+		text-align: right;
+	}
+}
+
+.penshop-banner2 {
+	.banner-title {
+		font-size: 3em;
+		font-weight: 700;
+		line-height: (36/30);
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+		padding: 60px;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	&.banner-left .banner-title {
+		left: 0;
+	}
+
+	&.banner-right .banner-title {
+		right: 0;
+	}
+
+	&.banner-center .banner-title {
+		left: 0;
+		right: 0;
+		text-align: center;
+	}
+}
+
+.penshop-banner-promo {
+	font-size: 10px;
+	display: flex;
+	align-items: center;
+
+	.banner-image {
+		flex-grow: 1;
+
+		img {
+			max-width: none;
+		}
+	}
+
+	.banner-content {
+		padding-left: 40px;
+		padding-right: 9%;
+		z-index: 1;
+	}
+
+	.banner-title {
+		font-size: 3.6em;
+		text-transform: uppercase;
+		line-height: 1.2;
+		margin-left: -100px;
+		margin-top: 0;
+		margin-bottom: 25px;
+	}
+
+	.banner-text {
+		font-size: 1.5em;
+	}
+
+	&.image-right {
+		.banner-image {
+			order: 2;
+		}
+
+		.banner-content {
+			text-align: right;
+			padding-left: 9%;
+			padding-right: 40px;
+		}
+
+		.banner-title {
+			margin-left: auto;
+			margin-right: -100px;
+		}
+	}
+}
+
+.penshop-banner-grid {
+	font-size: 10px;
+	position: relative;
+
+	.penshop-banner-grid__banner {
+		position: absolute;
+	}
+
+	.penshop-banner-grid__link {
+		display: block;
+		overflow: hidden;
+		height: 100%;
+	}
+
+	.penshop-banner-grid__image {
+		transition: 1s;
+		display: block;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+	}
+
+	.penshop-banner-grid__banner:hover .penshop-banner-grid__image {
+		transform: scale(1.05);
+	}
+}
+
+.penshop-banner-grid__gap0 {
+	margin: 0;
+
+	.penshop-banner-grid__banner {
+		padding: 0;
+	}
+}
+
+.penshop-banner-grid__gap1 {
+	margin: -0.5px;
+
+	.penshop-banner-grid__banner {
+		padding: 0.5px;
+	}
+}
+
+.penshop-banner-grid__gap2 {
+	margin: -1px;
+
+	.penshop-banner-grid__banner {
+		padding: 1px;
+	}
+}
+
+.penshop-banner-grid__gap3 {
+	margin: -1.5px;
+
+	.penshop-banner-grid__banner {
+		padding: 1.5px;
+	}
+}
+
+.penshop-banner-grid__gap4 {
+	margin: -2px;
+
+	.penshop-banner-grid__banner {
+		padding: 2px;
+	}
+}
+
+.penshop-banner-grid__gap5 {
+	margin: -2.5px;
+
+	.penshop-banner-grid__banner {
+		padding: 2.5px;
+	}
+}
+
+.penshop-banner-grid__gap10 {
+	margin: -5px;
+
+	.penshop-banner-grid__banner {
+		padding: 5px;
+	}
+}
+
+.penshop-banner-grid__gap15 {
+	margin: -7.5px;
+
+	.penshop-banner-grid__banner {
+		padding: 7.5px;
+	}
+}
+
+.penshop-banner-grid__gap20 {
+	margin: -10px;
+
+	.penshop-banner-grid__banner {
+		padding: 10px;
+	}
+}
+
+.penshop-banner-grid__gap25 {
+	margin: -12.5px;
+
+	.penshop-banner-grid__banner {
+		padding: 12.5px;
+	}
+}
+
+.penshop-banner-grid__gap30 {
+	margin: -15px;
+
+	.penshop-banner-grid__banner {
+		padding: 15px;
+	}
+}
+
+.penshop-banner-grid-3 {
+	.penshop-banner-grid__banner {
+		width: 50%;
+		position: absolute;
+	}
+
+	.penshop-banner-grid__text {
+		font-size: 60px;
+		font-size: 6em;
+		font-weight: 700;
+		font-family: $font__heading;
+		line-height: 0.85;
+		text-transform: uppercase;
+		white-space: nowrap;
+		margin-bottom: 0;
+	}
+
+	.penshop-banner.white .banner-title {
+		text-shadow: none;
+	}
+
+	.penshop-banner-grid__banner1 {
+		left: 0;
+		top: 0;
+		bottom: 0;
+		padding-right: 15px;
+
+		.penshop-banner-grid__link {
+			border: 5px solid $color__primary;
+		}
+
+		.penshop-banner-grid__text {
+			font-size: 85px;
+			font-size: 8.5em;
+		}
+	}
+
+	.penshop-banner-grid__banner2 {
+		right: 0;
+		top: 0;
+		height: 50%;
+		padding-bottom: 15px;
+		padding-left: 15px;
+	}
+
+	.penshop-banner-grid__banner3 {
+		right: 0;
+		bottom: 0;
+		height: 50%;
+		padding-top: 15px;
+		padding-left: 15px;
+	}
+}
+
+.penshop-banner-grid-3-reverse {
+	.penshop-banner-grid__banner {
+		position: absolute;
+
+		&.text-left .banner-content {
+			text-align: left;
+		}
+
+		&.text-right .banner-content {
+			text-align: right;
+		}
+
+		&.text-center .banner-content {
+			text-align: center;
+		}
+
+		.banner-title,
+		.banner-subtitle {
+			line-height: 1;
+			margin-bottom: 0;
+		}
+	}
+
+	.penshop-banner-grid__banner1 {
+		left: 0;
+		top: 0;
+		height: 50%;
+		width: 33.33333%;
+
+		.banner-title {
+			font-size: 3em;
+			font-weight: 400;
+		}
+
+		.banner-subtitle {
+			font-size: 3.6em;
+			font-weight: 700;
+		}
+	}
+
+	.penshop-banner-grid__banner2 {
+		left: 0;
+		bottom: 0;
+		height: 50%;
+		width: 33.33333%;
+
+		.banner-title {
+			font-size: 4.8em;
+			font-weight: 400;
+		}
+
+		.banner-subtitle {
+			font-size: 3em;
+			font-weight: 600;
+		}
+	}
+
+	.penshop-banner-grid__banner3 {
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 66.66667%;
+
+		.banner-content {
+			margin-top: -65px;
+		}
+
+		.banner-title {
+			font-size: 3em;
+			font-weight: 700;
+			margin-bottom: 15px;
+		}
+
+		.banner-subtitle {
+			font-size: 3em;
+			font-weight: 400;
+			margin-bottom: 20px;
+		}
+	}
+
+	.banner-top-center,
+	.banner-middle-center,
+	.banner-bottom-center {
+		&.text-left .banner-content {
+			left: 50%;
+			padding-left: 15px;
+		}
+
+		&.text-right .banner-content {
+			left: auto;
+			right: 50%;
+			padding-right: 15px;
+		}
+	}
+}
+
+.penshop-banner-grid-3-video {
+	.penshop-banner-grid__image {
+		background-color: #eee;
+	}
+
+	.penshop-banner-grid__banner1 {
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 66.666667%;
+
+		.banner-title {
+			font-size: 3em;
+			font-weight: 700;
+		}
+
+		.banner-subtitle {
+			font-size: 3em;
+			font-weight: 400;
+			text-transform: none;
+			margin-bottom: 20px;
+		}
+	}
+
+	.penshop-banner-grid__banner2 {
+		right: 0;
+		top: 0;
+		height: 40%;
+		width: 33.33333%;
+
+		.play-video {
+			@include font-size(4.8);
+			color: #fff;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 1;
+		}
+	}
+
+	.penshop-banner-grid__banner3 {
+		right: 0;
+		bottom: 0;
+		height: 60%;
+		width: 33.33333%;
+
+		.banner-content {
+			top: 0;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+		}
+
+		.banner-title {
+			font-size: 4.2em;
+			font-weight: 700;
+			margin-bottom: 0;
+		}
+
+		.banner-subtitle {
+			font-size: 3em;
+			font-weight: 400;
+			margin-bottom: 100px;
+		}
+	}
+}
+
+.penshop-banner-grid-4 {
+	font-size: 10px;
+	position: relative;
+
+	.penshop-banner-grid__text {
+		font-size: 4.8em;
+		font-weight: 500;
+		text-transform: uppercase;
+		letter-spacing: 0.3em;
+		margin-bottom: 0;
+	}
+
+	.penshop-button {
+		margin-top: 15px;
+	}
+
+	.banner-content {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.penshop-banner-grid__banner {
+		height: 50%;
+		position: absolute;
+	}
+
+	.penshop-banner-grid__banner1,
+	.penshop-banner-grid__banner4 {
+		width: 66.66666%;
+	}
+
+	.penshop-banner-grid__banner2,
+	.penshop-banner-grid__banner3 {
+		width: 33.33334%;
+	}
+
+	.penshop-banner-grid__banner1 {
+		top: 0;
+		left: 0;
+	}
+
+	.penshop-banner-grid__banner2 {
+		top: 0;
+		right: 0;
+	}
+
+	.penshop-banner-grid__banner3 {
+		bottom: 0;
+		left: 0;
+	}
+
+	.penshop-banner-grid__banner4 {
+		bottom: 0;
+		right: 0;
+	}
+
+	.penshop-banner.text-left .banner-content {
+		text-align: left;
+	}
+
+	.penshop-banner.text-center .banner-content {
+		text-align: center;
+	}
+
+	.penshop-banner.text-right .banner-content {
+		text-align: right;
+	}
+
+	.penshop-banner.white .banner-title {
+		text-shadow: none;
+	}
+}
+
+.penshop-product-category-grid {
+	.penshop-product-category-grid__cats {
+		margin: -1.5px;
+		overflow: hidden;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.penshop-product-category-grid__cat {
+		font-size: 10px;
+		width: 33.33333%;
+		min-height: 105px;
+		float: left;
+		position: relative;
+		padding: 1.5px;
+	}
+
+	a {
+		display: block;
+		overflow: hidden;
+		height: 100%;
+		position: relative;
+
+		&:before {
+			content: "";
+			display: block;
+			padding-top: 100%;
+		}
+
+		&:hover {
+			.penshop-product-category-grid__cat-image {
+				transform: scale(1.05);
+			}
+		}
+	}
+
+	.penshop-product-category-grid__cat-image {
+		transition: 1s;
+		display: block;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+		background: #666 no-repeat center center;
+		background-size: cover;
+	}
+
+	.penshop-product-category-grid__cat-name {
+		font-size: 2.4em;
+		font-weight: 600;
+		color: #fff;
+		text-align: center;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		margin: 0;
+		padding: 30px;
+		position: absolute;
+		top: 50%;
+		left: 0;
+		width: 100%;
+		transform: translateY(-50%);
+		z-index: 10;
+	}
+
+	.overlay {
+		transition: 0.3s;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	&.style-simple {
+		a:before {
+			padding-top: 68%;
+		}
+
+		.penshop-product-category-grid__cat-name {
+			font-size: 4.8em;
+			font-weight: 400;
+			text-transform: none;
+		}
+	}
+
+	&.style-dark_name {
+		a {
+			padding-bottom: 40px;
+
+			&:before {
+				padding-top: 133.33333%;
+			}
+		}
+
+		.penshop-product-category-grid__cat-image {
+			height: auto;
+			bottom: 40px;
+
+			&:after {
+				display: none;
+			}
+		}
+
+		.penshop-product-category-grid__cat-name {
+			font-size: 1.8em;
+			letter-spacing: 0;
+			line-height: 32px;
+			padding: 4px;
+			top: auto;
+			bottom: 0;
+			transform: translate(0);
+			background-color: $color__primary;
+		}
+	}
+
+	&.columns-2 .penshop-product-category-grid__cat {
+		width: 50%;
+	}
+
+	&.columns-3 .penshop-product-category-grid__cat {
+		width: 33.33333%;
+	}
+
+	&.columns-4 .penshop-product-category-grid__cat {
+		width: 25%;
+	}
+
+	&.gap0 {
+		.penshop-product-category-grid__cats {
+			margin: 0;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 0;
+		}
+	}
+
+	&.gap1 {
+		.penshop-product-category-grid__cats {
+			margin: -0.5px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 0.5px;
+		}
+	}
+
+	&.gap2 {
+		.penshop-product-category-grid__cats {
+			margin: -1px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 1px;
+		}
+	}
+
+	&.gap3 {
+		.penshop-product-category-grid__cats {
+			margin: -1.5px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 1.5px;
+		}
+	}
+
+	&.gap4 {
+		.penshop-product-category-grid__cats {
+			margin: -2px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 2px;
+		}
+	}
+
+	&.gap5 {
+		.penshop-product-category-grid__cats {
+			margin: -2.5px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 2.5px;
+		}
+	}
+
+	&.gap10 {
+		.penshop-product-category-grid__cats {
+			margin: -5px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 5px;
+		}
+	}
+
+	&.gap15 {
+		.penshop-product-category-grid__cats {
+			margin: -7.5px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 7.5px;
+		}
+	}
+
+	&.gap20 {
+		.penshop-product-category-grid__cats {
+			margin: -10px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 10px;
+		}
+	}
+
+	&.gap25 {
+		.penshop-product-category-grid__cats {
+			margin: -12.5px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 12.5px;
+		}
+	}
+
+	&.gap30 {
+		.penshop-product-category-grid__cats {
+			margin: -15px;
+		}
+
+		.penshop-product-category-grid__cat {
+			padding: 15px;
+		}
+	}
+}
+
+.penshop-carousel {
+	display: none;
+
+	.owl-stage-outer,
+	.owl-stage,
+	.owl-item,
+	.penshop-carousel-item {
+		height: 100%;
+	}
+
+	.penshop-carousel-item img {
+		display: block;
+		height: 100%;
+		width: auto;
+	}
+
+	.owl-nav {
+		opacity: 0;
+		transition: 0.3s;
+
+		div {
+			@include font-size(3);
+			color: #fff;
+			width: 50px;
+			height: 50px;
+			line-height: 46px;
+			text-align: center;
+			border: 2px solid #fff;
+			border-radius: 50%;
+		}
+
+		.owl-prev {
+			left: 30px;
+		}
+
+		.owl-next {
+			right: 30px;
+		}
+	}
+
+	&:hover .owl-nav {
+		opacity: 1;
+	}
+}
+
+.penshop-carousel-item {
+	position: relative;
+
+	img {
+		display: block;
+		height: 100%;
+		width: auto;
+	}
+
+	.carousel-item-content {
+		position: absolute;
+		z-index: 10;
+		padding: 60px;
+	}
+
+	&.content-top-left {
+		.carousel-item-content {
+			top: 0;
+			left: 0;
+		}
+	}
+
+	&.content-top-center {
+		.carousel-item-content {
+			top: 0;
+			left: 50%;
+			transform: translate( -50%, 0 );
+		}
+	}
+
+	&.content-top-right {
+		.carousel-item-content {
+			top: 0;
+			right: 0;
+		}
+	}
+
+	&.content-middle-left {
+		.carousel-item-content {
+			top: 50%;
+			left: 0;
+			transform: translate( 0, -50% );
+		}
+	}
+
+	&.content-middle-center {
+		.carousel-item-content {
+			top: 50%;
+			left: 50%;
+			transform: translate( -50%, -50% );
+		}
+	}
+
+	&.content-middle-right {
+		.carousel-item-content {
+			top: 50%;
+			right: 0;
+			transform: translate( 0, -50% );
+		}
+	}
+
+	&.content-bottom-left {
+		.carousel-item-content {
+			bottom: 0;
+			left: 0;
+		}
+	}
+
+	&.content-bottom-center {
+		.carousel-item-content {
+			bottom: 0;
+			left: 50%;
+			transform: translate( -50%, 0 );
+		}
+	}
+
+	&.content-bottom-right {
+		.carousel-item-content {
+			bottom: 0;
+			right: 0;
+		}
+	}
+}
+
+.penshop-icon-list {
+	list-style: none !important;
+	padding-left: 0 !important;
+	margin: 0;
+
+	li i {
+		text-align: left;
+		width: 24px;
+	}
+}
+
+.penshop-slider {
+	position: relative;
+	background-color: #f3f3f3;
+
+	&.penshop-slider-fullscreen {
+		height: 100vh;
+	}
+
+	> .loading-icon {
+		border-color: $color__primary;
+		border-right-color: transparent !important;
+		border-top-color: transparent !important;
+		width: 24px;
+		height: 24px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 50%);
+	}
+
+	&.initialized > .loading-icon {
+		display: none;
+	}
+
+	.penshop-slider__container,
+	.penshop-slider__slides,
+	.penshop-slider__slide,
+	.owl-stage-outer,
+	.owl-stage,
+	.owl-item,
+	.container {
+		height: 100%;
+	}
+
+	.penshop-slider__container {
+		overflow: hidden;
+		background-color: #f3f3f3;
+	}
+
+	&.penshop-slider-fullwidth .penshop-slider__container {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.penshop-slider__slide {
+		font-size: 18px;
+		background-position: center center;
+		background-size: cover;
+
+		.container {
+			position: relative;
+		}
+	}
+
+	.slide-content {
+		position: absolute;
+		top: 50%;
+		z-index: 10;
+	}
+
+	.slide-layer {
+		white-space: nowrap;
+
+		&[data-animation] {
+			animation-duration: 0.45s;
+			visibility: hidden;
+		}
+
+		&.visible[data-animation] {
+			visibility: visible;
+		}
+
+		&.layer-color-dark {
+			color: $color__primary;
+		}
+
+		&.layer-color-white {
+			color: #fff;
+		}
+	}
+
+	p.slide-layer {
+		white-space: normal;
+	}
+
+	.slide-content-center .slide-content {
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.slide-content-center.text-left .slide-content {
+		left: 50%;
+		transform: translate(0, -50%);
+	}
+
+	.slide-content-center.text-right .slide-content {
+		left: auto;
+		right: 50%;
+		transform: translate(0, -50%);
+	}
+
+	.slide-content-left .slide-content {
+		left: 0;
+		transform: translate(0, -50%);
+	}
+
+	.slide-content-right .slide-content {
+		right: 0;
+		transform: translate(0, -50%);
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+		line-height: 1.3;
+	}
+
+	h1 {
+		font-size: (72/18) * 1em;
+	}
+
+	h2 {
+		font-size: (60/18) * 1em;
+	}
+
+	h3 {
+		font-size: (40/18) * 1em;
+	}
+
+	h4 {
+		font-size: (36/18) * 1em;
+	}
+
+	h5 {
+		font-size: (24/18) * 1em;
+	}
+
+	h6 {
+		font-size: 1em;
+	}
+
+	.button-type-underline {
+		@include font-size(1.6);
+	}
+
+	.owl-nav .owl-prev {
+		left: 30px;
+	}
+
+	.owl-nav .owl-next {
+		right: 30px;
+	}
+
+	.owl-dots {
+		text-align: center;
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.owl-dot span {
+		opacity: 0.2;
+		border-radius: 50%;
+		width: 9px;
+		height: 9px;
+		margin: 0 5px;
+		background: $color__primary;
+	}
+
+	&.nav-color-white {
+		.owl-nav div {
+			color: #fff;
+		}
+
+		.owl-dot span {
+			background-color: #fff;
+		}
+	}
+}

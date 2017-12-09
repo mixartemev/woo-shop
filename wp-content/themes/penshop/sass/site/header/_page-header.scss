@@ -1,0 +1,72 @@
+.page-header {
+	color: $color__primary;
+	text-align: center;
+	font-family: $font__heading;
+	padding: 110px 0;
+	background-color: $color__secondary;
+	background-image: none;
+	background-position: center center;
+	background-size: cover;
+
+	//&.has-image {
+	//	padding: 250px 0;
+	//	background-size: cover;
+	//}
+
+	.page-title {
+		@include font-size(4.8);
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 1.2;
+		margin: 0;
+	}
+
+	.breadcrumb {
+		margin-top: 15px;
+	}
+}
+
+.breadcrumb,
+.breadcrumb.woocommerce-breadcrumb {
+	@include font-size(1.6);
+	color: $color__primary;
+
+	a {
+		color: $color__primary;
+
+		&:hover {
+			color: $color__active;
+		}
+	}
+
+	.fa {
+		margin: 0 10px;
+	}
+}
+
+.page-header-text-light .page-header {
+	&,
+	.page-title,
+	.breadcrumb,
+	.breadcrumb a {
+		color: #fff;
+	}
+}
+
+//.header-transparent {
+//	.page-header {
+//		padding-top: 200px;
+//
+//		&.has-image {
+//			padding-top: 350px;
+//		}
+//	}
+//
+//	&.header-v1 .page-header {
+//		padding-top: 270px;
+//
+//		&.has-image {
+//			padding-top: 410px;
+//		}
+//	}
+//}

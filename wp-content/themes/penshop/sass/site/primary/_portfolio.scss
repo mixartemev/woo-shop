@@ -1,0 +1,412 @@
+.portfolio-thumbnail {
+	margin-bottom: 22px;
+
+	.image-holder {
+		font-size: 0;
+		text-indent: -9999em;
+		display: block;
+		background: $color__border no-repeat center center;
+		background-size: cover;
+
+		&:before {
+			content: "";
+			display: block;
+			padding-top: (39/57)*100%;
+		}
+	}
+}
+
+.portfolio-title {
+	@include font-size(3);
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.3;
+	margin-bottom: 25px;
+}
+
+.portfolio-type {
+	@include font-size(1.4);
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 18px;
+
+	a {
+		color: #888888;
+		padding: 0 5px;
+
+		&:hover {
+			color: $color__primary;
+		}
+	}
+}
+
+.portfolio-share {
+	text-align: center;
+	font-weight: 700;
+	padding-top: 20px;
+
+	span {
+		@include font-size(1.4);
+		font-family: $font__heading;
+		color: $color__primary;
+		text-transform: uppercase;
+	}
+
+	a {
+		margin-left: 15px;
+	}
+
+	.pentip {
+		color: #fff;
+		font-size: 12px;
+		font-family: $font__main;
+		text-transform: none;
+	}
+}
+
+.single-portfolio {
+	.navigation {
+		margin-top: 50px;
+		clear: both;
+		border-bottom: 1px solid $color__border;
+	}
+}
+
+.portfolio-items {
+	.portfolio {
+		text-align: center;
+		margin-bottom: 33px;
+
+		&:hover {
+			.portfolio-thumbnail {
+				img {
+					transform: scale(1.06);
+				}
+
+				&:before {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	.portfolio-title {
+		margin-bottom: 5px;
+	}
+
+	.portfolio-thumbnail {
+		position: relative;
+		overflow: hidden;
+		display: block;
+		margin-bottom: 28px;
+
+		img {
+			transition: 0.3s;
+		}
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.6);
+			opacity: 0;
+			z-index: 9;
+			transition: 0.3s;
+		}
+	}
+
+	.portfolio-type {
+		margin-bottom: 0;
+	}
+
+	&.layout-2-columns .portfolio {
+		&:nth-child(2n+1) {
+			clear: left;
+		}
+
+		.portfolio-title {
+			@include font-size(2.4);
+		}
+	}
+
+	&.layout-3-columns .portfolio {
+		margin-bottom: 30px;
+
+		&:nth-child(3n+1) {
+			clear: left;
+		}
+
+		.portfolio-title {
+			@include font-size(1.8);
+		}
+	}
+
+	&.layout-fullwidth {
+		margin-left: -3px;
+		margin-right: -3px;
+
+		.portfolio {
+			margin: 0;
+			padding: 0;
+			float: left;
+
+			&:before {
+				content: "";
+				display: block;
+			}
+
+			.portfolio-thumbnail {
+				position: absolute;
+				left: 3px;
+				right: 3px;
+				top: 3px;
+				bottom: 3px;
+				margin: 0;
+			}
+
+			.image-holder {
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+
+				&:before {
+					display: none;
+				}
+			}
+
+			.portfolio-summary {
+				position: absolute;
+				width: 100%;
+				top: 50%;
+				left: 0;
+				opacity: 0;
+				transition: 0.3s;
+				z-index: 10;
+				padding: 0 15px;
+			}
+
+			.portfolio-title {
+				@include font-size(2);
+
+				a {
+					color: #fff;
+
+					&:hover {
+						color: $color__active;
+					}
+				}
+			}
+
+			.portfolio-type a {
+				color: #fff;
+				opacity: 0.5;
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+
+			&:hover .portfolio-summary {
+				opacity: 1;
+				transform: translateY(-50%);
+			}
+		}
+
+		.portfolio-normal:before,
+		.portfolio-large:before {
+			padding-top: 100%;
+		}
+
+		.portfolio-wide:before {
+			padding-top: 50%;
+		}
+	}
+
+	&.layout-masonry {
+		margin-left: -3px;
+		margin-right: -3px;
+
+		.portfolio {
+			margin: 0;
+			padding: 3px;
+
+			.portfolio-thumbnail {
+				margin: 0;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.portfolio-summary {
+				position: absolute;
+				width: 100%;
+				top: 50%;
+				left: 0;
+				opacity: 0;
+				transition: 0.3s;
+				z-index: 10;
+				padding: 0 15px;
+			}
+
+			.portfolio-title a {
+				color: #fff;
+
+				&:hover {
+					color: $color__active;
+				}
+			}
+
+			.portfolio-type a {
+				color: #fff;
+				opacity: 0.5;
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+
+			&:hover .portfolio-summary {
+				opacity: 1;
+				transform: translateY(-50%);
+			}
+		}
+	}
+}
+
+.portfolio-filter {
+	text-align: center;
+	padding-bottom: 60px;
+
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+
+		li {
+			@include font-size(1.2);
+			font-family: $font__heading;
+			color: $color__primary;
+			font-weight: 600;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 0 10px;
+			margin: 0 10px;
+			cursor: pointer;
+			height: 24px;
+			line-height: 26px;
+			transition: 0.3s;
+
+			&.active,
+			&:hover {
+				background-color: #e53935;
+				color: #fff;
+			}
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.post-type-archive-portfolio,
+.tax-portfolio_type {
+	.pagination,
+	.navigation {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.navigation {
+		.nav-next {
+			display: none;
+		}
+
+		.nav-previous {
+			width: 100%;
+			float: none;
+
+			a {
+				display: inline-block;
+				position: relative;
+				padding: 0;
+				font-weight: 700;
+				color: $color__primary;
+				font-family: $font__heading;
+				line-height: 33px;
+				text-transform: uppercase;
+
+				.loading-bubbles {
+					display: inline-block;
+					width: 100%;
+					opacity: 0;
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					transform: translate(-50%, -50%);
+
+					span {
+						width: 12px;
+						height: 12px;
+						min-width: 12px;
+						min-height: 12px;
+						padding: 0;
+						margin: 0 5px;
+					}
+				}
+
+				&:before,
+				&:after {
+					color: inherit;
+					content: "";
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					width: 100%;
+					border-bottom: 2px solid;
+					transition: transform 0.3s linear;
+				}
+
+				&:after {
+					border-color: $color__active;
+					transform: scaleX(0);
+					transform-origin: center center;
+				}
+
+				&:hover {
+					color: $color__active;
+
+					&:after {
+						transform: scaleX(1);
+					}
+				}
+
+				&.loading {
+					cursor: default;
+
+					&:before,
+					&:after {
+						opacity: 0;
+					}
+
+					.link-text {
+						opacity: 0;
+					}
+
+					.loading-bubbles {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}

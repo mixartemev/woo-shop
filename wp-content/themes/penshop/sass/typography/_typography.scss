@@ -1,0 +1,12 @@
+body {
+	color: $color__text-main;
+	font-family: $font__main;
+	@include font-size(1.5);
+	line-height: $font__line-height-body;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+@import "headings";
+
+@import "copy";

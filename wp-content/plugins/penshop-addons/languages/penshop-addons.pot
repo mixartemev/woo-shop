@@ -1,0 +1,2341 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-18 09:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: penshop-addons.php:76
+#, php-format
+msgid ""
+"<strong>%s</strong> requires <strong><a href=\"http://bit.ly/vcomposer\" "
+"target=\"_blank\">Visual Composer</a></strong> plugin to be installed and "
+"activated on your site."
+msgstr ""
+
+#: includes/portfolio.php:86 includes/portfolio.php:521
+#: includes/portfolio.php:616 includes/portfolio.php:650
+msgctxt "slug"
+msgid "portfolio"
+msgstr ""
+
+#: includes/portfolio.php:88
+msgctxt "slug"
+msgid "portfolio-type"
+msgstr ""
+
+#: includes/portfolio.php:91
+msgid "Portfolio Items"
+msgstr ""
+
+#: includes/portfolio.php:93 includes/portfolio.php:95
+#: includes/portfolio.php:221 includes/portfolio.php:244
+msgid "Portfolio"
+msgstr ""
+
+#: includes/portfolio.php:94 includes/portfolio.php:175
+msgid "Project"
+msgstr ""
+
+#: includes/portfolio.php:96
+msgid "All Projects"
+msgstr ""
+
+#: includes/portfolio.php:97
+msgid "Add New"
+msgstr ""
+
+#: includes/portfolio.php:98
+msgid "Add New Project"
+msgstr ""
+
+#: includes/portfolio.php:99
+msgid "Edit Project"
+msgstr ""
+
+#: includes/portfolio.php:100
+msgid "New Project"
+msgstr ""
+
+#: includes/portfolio.php:101
+msgid "View Project"
+msgstr ""
+
+#: includes/portfolio.php:102
+msgid "Search Projects"
+msgstr ""
+
+#: includes/portfolio.php:103
+msgid "No Projects found"
+msgstr ""
+
+#: includes/portfolio.php:104
+msgid "No Projects found in Trash"
+msgstr ""
+
+#: includes/portfolio.php:105
+msgid "Filter projects list"
+msgstr ""
+
+#: includes/portfolio.php:106
+msgid "Project list navigation"
+msgstr ""
+
+#: includes/portfolio.php:107
+msgid "Projects list"
+msgstr ""
+
+#: includes/portfolio.php:138 includes/portfolio.php:140
+msgid "Project Types"
+msgstr ""
+
+#: includes/portfolio.php:139
+msgid "Project Type"
+msgstr ""
+
+#: includes/portfolio.php:141
+msgid "All Project Types"
+msgstr ""
+
+#: includes/portfolio.php:142
+msgid "Edit Project Type"
+msgstr ""
+
+#: includes/portfolio.php:143
+msgid "View Project Type"
+msgstr ""
+
+#: includes/portfolio.php:144
+msgid "Update Project Type"
+msgstr ""
+
+#: includes/portfolio.php:145
+msgid "Add New Project Type"
+msgstr ""
+
+#: includes/portfolio.php:146
+msgid "New Project Type Name"
+msgstr ""
+
+#: includes/portfolio.php:147
+msgid "Parent Project Type"
+msgstr ""
+
+#: includes/portfolio.php:148
+msgid "Parent Project Type:"
+msgstr ""
+
+#: includes/portfolio.php:149
+msgid "Search Project Types"
+msgstr ""
+
+#: includes/portfolio.php:150
+msgid "Project type list navigation"
+msgstr ""
+
+#: includes/portfolio.php:151
+msgid "Project type list"
+msgstr ""
+
+#: includes/portfolio.php:228
+msgid "Portfolio Projects"
+msgstr ""
+
+#: includes/portfolio.php:251
+msgid "Portfolio page"
+msgstr ""
+
+#: includes/portfolio.php:265
+msgid "Portfolio items show at most"
+msgstr ""
+
+#: includes/portfolio.php:280
+msgid "Portfolio Item Permalink"
+msgstr ""
+
+#: includes/portfolio.php:287
+msgid "Portfolio type base"
+msgstr ""
+
+#: includes/portfolio.php:307
+msgid "Use these settings to display custom types of content on your site"
+msgstr ""
+
+#: includes/portfolio.php:318
+msgid "Use these settings to control custom post type content"
+msgstr ""
+
+#: includes/portfolio.php:332 includes/portfolio.php:333
+#: includes/portfolio.php:531
+msgctxt "Default slug"
+msgid "portfolio"
+msgstr ""
+
+#: includes/portfolio.php:342
+msgid ""
+"Use these settings to control the permalink used specifically for portfolio."
+msgstr ""
+
+#: includes/portfolio.php:351 includes/slider.php:269 includes/slider.php:280
+#: includes/visual-composer.php:2203 includes/visual-composer.php:2304
+#: includes/visual-composer.php:2398 includes/visual-composer.php:2794
+msgid "Default"
+msgstr ""
+
+#: includes/portfolio.php:364
+msgid "Portfolio base"
+msgstr ""
+
+#: includes/portfolio.php:376
+msgid "Portfolio base with type"
+msgstr ""
+
+#: includes/portfolio.php:386
+msgid "Custom Base"
+msgstr ""
+
+#: includes/portfolio.php:434
+msgid "Enable Portfolio Projects for this site."
+msgstr ""
+
+#: includes/portfolio.php:447
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: includes/portfolio.php:462
+msgctxt "Portfolio items per page"
+msgid "items"
+msgstr ""
+
+#: includes/portfolio.php:477
+msgctxt "Portfolio type base"
+msgid "portfolio-type"
+msgstr ""
+
+#: includes/portfolio.php:715
+msgctxt "slug"
+msgid "uncategorized"
+msgstr ""
+
+#: includes/portfolio.php:763 includes/portfolio.php:784
+msgctxt "Portfolio post type breadcrumb"
+msgid "Portfolio"
+msgstr ""
+
+#: includes/share.php:19 includes/share.php:20
+msgid "Share on Facebook"
+msgstr ""
+
+#: includes/share.php:31 includes/share.php:32
+msgid "Share on Twitter"
+msgstr ""
+
+#: includes/share.php:42 includes/share.php:43
+msgid "Share on Google Plus"
+msgstr ""
+
+#: includes/share.php:59 includes/share.php:60
+msgid "Share on Pinterest"
+msgstr ""
+
+#: includes/share.php:68 includes/share.php:69
+msgid "Share on Tumblr"
+msgstr ""
+
+#: includes/share.php:76
+msgid "You would love this"
+msgstr ""
+
+#: includes/share.php:77 includes/share.php:78
+msgid "Mail to your friends"
+msgstr ""
+
+#: includes/share.php:91 includes/share.php:110
+msgid "Share"
+msgstr ""
+
+#: includes/shortcodes.php:116
+msgid "No query atts"
+msgstr ""
+
+#: includes/shortcodes.php:148 includes/visual-composer.php:224
+msgid "I am Icon Box"
+msgstr ""
+
+#: includes/shortcodes.php:1213 includes/visual-composer.php:3671
+msgid "Question content goes here"
+msgstr ""
+
+#: includes/shortcodes.php:1253 includes/visual-composer.php:1105
+#: includes/visual-composer.php:1297 includes/visual-composer.php:1523
+#: includes/visual-composer.php:1697 includes/visual-composer.php:1843
+#: includes/visual-composer.php:1989 includes/visual-composer.php:2135
+#: includes/visual-composer.php:2708 includes/visual-composer.php:2806
+#: includes/visual-composer.php:2875
+msgid "Button Text"
+msgstr ""
+
+#: includes/shortcodes.php:1368 includes/shortcodes.php:1503
+msgid "All"
+msgstr ""
+
+#: includes/shortcodes.php:1431 includes/shortcodes.php:1482
+#: includes/shortcodes.php:2484 includes/visual-composer.php:2367
+#: includes/visual-composer.php:2528
+msgid "Load more products"
+msgstr ""
+
+#: includes/shortcodes.php:1470 includes/visual-composer.php:2477
+msgid "Best Sellers"
+msgstr ""
+
+#: includes/shortcodes.php:1474 includes/visual-composer.php:2481
+msgid "New Arrivals"
+msgstr ""
+
+#: includes/shortcodes.php:1478 includes/visual-composer.php:2485
+msgid "Hot Sales"
+msgstr ""
+
+#: includes/shortcodes.php:1655 includes/visual-composer.php:2878
+msgid "Shop Now"
+msgstr ""
+
+#: includes/shortcodes.php:2222
+msgid "Days"
+msgstr ""
+
+#: includes/shortcodes.php:2223
+msgid "Hours"
+msgstr ""
+
+#: includes/shortcodes.php:2224
+msgid "Minutes"
+msgstr ""
+
+#: includes/shortcodes.php:2225
+msgid "Seconds"
+msgstr ""
+
+#: includes/shortcodes.php:2258
+msgid "Google map requires API Key in order to work."
+msgstr ""
+
+#: includes/shortcodes.php:2330 includes/shortcodes.php:2338
+msgid "Can not connect to Google Maps APIs"
+msgstr ""
+
+#: includes/shortcodes.php:2356
+msgid "No location found for the entered address."
+msgstr ""
+
+#: includes/shortcodes.php:2358
+msgid "Invalid request. Did you enter an address?"
+msgstr ""
+
+#: includes/shortcodes.php:2360
+msgid ""
+"Something went wrong while retrieving your map, please ensure you have "
+"entered the short code correctly."
+msgstr ""
+
+#: includes/shortcodes.php:2363
+msgid "Unable to contact Google API service."
+msgstr ""
+
+#: includes/slider.php:58
+msgid "Sliders"
+msgstr ""
+
+#: includes/slider.php:59
+msgctxt "shop_order post type singular name"
+msgid "Slider"
+msgstr ""
+
+#: includes/slider.php:60
+msgid "Add Slider"
+msgstr ""
+
+#: includes/slider.php:61
+msgid "Add new slider"
+msgstr ""
+
+#: includes/slider.php:62
+msgid "Edit"
+msgstr ""
+
+#: includes/slider.php:63
+msgid "Edit slider"
+msgstr ""
+
+#: includes/slider.php:64
+msgid "New slider"
+msgstr ""
+
+#: includes/slider.php:65 includes/slider.php:66
+msgid "View slider"
+msgstr ""
+
+#: includes/slider.php:67
+msgid "Search sliders"
+msgstr ""
+
+#: includes/slider.php:68
+msgid "No sliders found"
+msgstr ""
+
+#: includes/slider.php:69
+msgid "No sliders found in trash"
+msgstr ""
+
+#: includes/slider.php:70
+msgid "Parent sliders"
+msgstr ""
+
+#: includes/slider.php:71
+msgctxt "Admin menu name"
+msgid "Sliders"
+msgstr ""
+
+#: includes/slider.php:72
+msgid "All Sliders"
+msgstr ""
+
+#: includes/slider.php:73
+msgid "Filter sliders"
+msgstr ""
+
+#: includes/slider.php:74
+msgid "Sliders navigation"
+msgstr ""
+
+#: includes/slider.php:75
+msgid "Sliders list"
+msgstr ""
+
+#: includes/slider.php:159
+msgid "Slides"
+msgstr ""
+
+#: includes/slider.php:170
+msgid "Slide {#}"
+msgstr ""
+
+#: includes/slider.php:171
+msgid "Add slide"
+msgstr ""
+
+#: includes/slider.php:174
+msgid "Slide image"
+msgstr ""
+
+#: includes/slider.php:188 includes/slider.php:199
+#: includes/visual-composer.php:215 includes/visual-composer.php:388
+#: includes/visual-composer.php:527 includes/visual-composer.php:666
+#: includes/visual-composer.php:851 includes/visual-composer.php:990
+#: includes/visual-composer.php:1136 includes/visual-composer.php:1327
+#: includes/visual-composer.php:1535 includes/visual-composer.php:1728
+#: includes/visual-composer.php:1874 includes/visual-composer.php:2020
+#: includes/visual-composer.php:2166 includes/visual-composer.php:2758
+#: includes/visual-composer.php:2965 includes/visual-composer.php:3019
+#: includes/visual-composer.php:3177 includes/visual-composer.php:3576
+msgid "Left"
+msgstr ""
+
+#: includes/slider.php:189 includes/slider.php:200
+#: includes/visual-composer.php:389 includes/visual-composer.php:528
+#: includes/visual-composer.php:667 includes/visual-composer.php:852
+#: includes/visual-composer.php:991 includes/visual-composer.php:1137
+#: includes/visual-composer.php:1328 includes/visual-composer.php:1536
+#: includes/visual-composer.php:1729 includes/visual-composer.php:1875
+#: includes/visual-composer.php:2021 includes/visual-composer.php:2167
+#: includes/visual-composer.php:2759 includes/visual-composer.php:2966
+#: includes/visual-composer.php:3178 includes/visual-composer.php:3577
+msgid "Center"
+msgstr ""
+
+#: includes/slider.php:190 includes/slider.php:201
+#: includes/visual-composer.php:390 includes/visual-composer.php:529
+#: includes/visual-composer.php:668 includes/visual-composer.php:853
+#: includes/visual-composer.php:992 includes/visual-composer.php:1138
+#: includes/visual-composer.php:1329 includes/visual-composer.php:1537
+#: includes/visual-composer.php:1730 includes/visual-composer.php:1876
+#: includes/visual-composer.php:2022 includes/visual-composer.php:2168
+#: includes/visual-composer.php:2760 includes/visual-composer.php:2967
+#: includes/visual-composer.php:3020 includes/visual-composer.php:3179
+#: includes/visual-composer.php:3578
+msgid "Right"
+msgstr ""
+
+#: includes/slider.php:212
+msgid "Add layer"
+msgstr ""
+
+#: includes/slider.php:221
+msgid "Heading 1"
+msgstr ""
+
+#: includes/slider.php:222
+msgid "Heading 2"
+msgstr ""
+
+#: includes/slider.php:223
+msgid "Heading 3"
+msgstr ""
+
+#: includes/slider.php:224
+msgid "Heading 4"
+msgstr ""
+
+#: includes/slider.php:225
+msgid "Heading 5"
+msgstr ""
+
+#: includes/slider.php:226
+msgid "Heading 6"
+msgstr ""
+
+#: includes/slider.php:227
+msgid "Paragraph"
+msgstr ""
+
+#: includes/slider.php:228 includes/visual-composer.php:2696
+msgid "Button"
+msgstr ""
+
+#: includes/slider.php:229
+msgid "Button underline"
+msgstr ""
+
+#: includes/slider.php:230
+msgid "Container"
+msgstr ""
+
+#: includes/slider.php:251 includes/slider.php:423
+#: includes/visual-composer.php:402 includes/visual-composer.php:541
+#: includes/visual-composer.php:680 includes/visual-composer.php:865
+#: includes/visual-composer.php:1004 includes/visual-composer.php:1150
+#: includes/visual-composer.php:1341 includes/visual-composer.php:1549
+#: includes/visual-composer.php:1742 includes/visual-composer.php:1888
+#: includes/visual-composer.php:2034 includes/visual-composer.php:2180
+#: includes/visual-composer.php:2747 includes/visual-composer.php:2892
+#: includes/visual-composer.php:2977 includes/visual-composer.php:3566
+msgid "Dark"
+msgstr ""
+
+#: includes/slider.php:252 includes/slider.php:424
+#: includes/visual-composer.php:401 includes/visual-composer.php:540
+#: includes/visual-composer.php:679 includes/visual-composer.php:864
+#: includes/visual-composer.php:1003 includes/visual-composer.php:1149
+#: includes/visual-composer.php:1340 includes/visual-composer.php:1548
+#: includes/visual-composer.php:1741 includes/visual-composer.php:1887
+#: includes/visual-composer.php:2033 includes/visual-composer.php:2179
+#: includes/visual-composer.php:2748 includes/visual-composer.php:2893
+#: includes/visual-composer.php:2978 includes/visual-composer.php:3567
+msgid "White"
+msgstr ""
+
+#: includes/slider.php:253 includes/slider.php:425
+msgid "Custom"
+msgstr ""
+
+#: includes/slider.php:270
+msgid "Poppins"
+msgstr ""
+
+#: includes/slider.php:271
+msgid "Roboto"
+msgstr ""
+
+#: includes/slider.php:272
+msgid "Playfair Display"
+msgstr ""
+
+#: includes/slider.php:281
+msgid "Light"
+msgstr ""
+
+#: includes/slider.php:282 includes/visual-composer.php:2721
+#: includes/visual-composer.php:2735
+msgid "Normal"
+msgstr ""
+
+#: includes/slider.php:283
+msgid "Medium"
+msgstr ""
+
+#: includes/slider.php:284
+msgid "Semi Bold"
+msgstr ""
+
+#: includes/slider.php:285
+msgid "Bold"
+msgstr ""
+
+#: includes/slider.php:306
+msgid "No animation"
+msgstr ""
+
+#: includes/slider.php:307
+msgctxt "animation effect name"
+msgid "Bounce In"
+msgstr ""
+
+#: includes/slider.php:308
+msgctxt "animation effect name"
+msgid "Bounce In Up"
+msgstr ""
+
+#: includes/slider.php:309
+msgctxt "animation effect name"
+msgid "Bounce In Down"
+msgstr ""
+
+#: includes/slider.php:310
+msgctxt "animation effect name"
+msgid "Bounce In Left"
+msgstr ""
+
+#: includes/slider.php:311
+msgctxt "animation effect name"
+msgid "Bounce In Right"
+msgstr ""
+
+#: includes/slider.php:312
+msgctxt "animation effect name"
+msgid "Fade In"
+msgstr ""
+
+#: includes/slider.php:313
+msgctxt "animation effect name"
+msgid "Fade In Down"
+msgstr ""
+
+#: includes/slider.php:314
+msgctxt "animation effect name"
+msgid "Fade In Down Big"
+msgstr ""
+
+#: includes/slider.php:315
+msgctxt "animation effect name"
+msgid "Fade In Left"
+msgstr ""
+
+#: includes/slider.php:316
+msgctxt "animation effect name"
+msgid "Fade In Left Big"
+msgstr ""
+
+#: includes/slider.php:317
+msgctxt "animation effect name"
+msgid "Fade In Right"
+msgstr ""
+
+#: includes/slider.php:318
+msgctxt "animation effect name"
+msgid "Fade In Right Big"
+msgstr ""
+
+#: includes/slider.php:319
+msgctxt "animation effect name"
+msgid "Fade In Up"
+msgstr ""
+
+#: includes/slider.php:320
+msgctxt "animation effect name"
+msgid "Fade In Up Big"
+msgstr ""
+
+#: includes/slider.php:321
+msgctxt "animation effect name"
+msgid "Flip"
+msgstr ""
+
+#: includes/slider.php:322
+msgctxt "animation effect name"
+msgid "Flip In X"
+msgstr ""
+
+#: includes/slider.php:323
+msgctxt "animation effect name"
+msgid "Flip In Y"
+msgstr ""
+
+#: includes/slider.php:324
+msgctxt "animation effect name"
+msgid "Rotate In"
+msgstr ""
+
+#: includes/slider.php:325
+msgctxt "animation effect name"
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: includes/slider.php:326
+msgctxt "animation effect name"
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: includes/slider.php:327
+msgctxt "animation effect name"
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: includes/slider.php:328
+msgctxt "animation effect name"
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: includes/slider.php:329
+msgctxt "animation effect name"
+msgid "Slide In Up"
+msgstr ""
+
+#: includes/slider.php:330
+msgctxt "animation effect name"
+msgid "Slide In Down"
+msgstr ""
+
+#: includes/slider.php:331
+msgctxt "animation effect name"
+msgid "Slide In Left"
+msgstr ""
+
+#: includes/slider.php:332
+msgctxt "animation effect name"
+msgid "Slide In Right"
+msgstr ""
+
+#: includes/slider.php:333
+msgctxt "animation effect name"
+msgid "Zoom In"
+msgstr ""
+
+#: includes/slider.php:334
+msgctxt "animation effect name"
+msgid "Zoom In Down"
+msgstr ""
+
+#: includes/slider.php:335
+msgctxt "animation effect name"
+msgid "Zoom In Left"
+msgstr ""
+
+#: includes/slider.php:336
+msgctxt "animation effect name"
+msgid "Zoom In Right"
+msgstr ""
+
+#: includes/slider.php:337
+msgctxt "animation effect name"
+msgid "Zoom In Up"
+msgstr ""
+
+#: includes/slider.php:342
+msgid "Animation Preview"
+msgstr ""
+
+#: includes/slider.php:355
+msgid "Slider Settings"
+msgstr ""
+
+#: includes/slider.php:365
+msgid "Slider Width"
+msgstr ""
+
+#: includes/slider.php:370
+msgid "Auto"
+msgstr ""
+
+#: includes/slider.php:371
+msgid "Full Width"
+msgstr ""
+
+#: includes/slider.php:372
+msgid "Full Screen"
+msgstr ""
+
+#: includes/slider.php:376 includes/visual-composer.php:255
+#: includes/visual-composer.php:698 includes/visual-composer.php:1168
+#: includes/visual-composer.php:1568 includes/visual-composer.php:3092
+#: includes/visual-composer.php:3627
+msgid "Height"
+msgstr ""
+
+#: includes/slider.php:377
+msgid "Note: this option does not work with \"Full Screen\" slider."
+msgstr ""
+
+#: includes/slider.php:383
+msgid "Auto play"
+msgstr ""
+
+#: includes/slider.php:390
+msgid "Slide duration"
+msgstr ""
+
+#: includes/slider.php:391
+msgid "The time one slide stays on the screen in miliseconds"
+msgstr ""
+
+#: includes/slider.php:397
+msgid "Slide Speed"
+msgstr ""
+
+#: includes/slider.php:398
+msgid "Duration of transition between slides in miliseconds"
+msgstr ""
+
+#: includes/slider.php:404
+msgid "Slider navigation"
+msgstr ""
+
+#: includes/slider.php:411
+msgid "Slider pagination dots"
+msgstr ""
+
+#: includes/slider.php:443
+msgid "Slider Shortcode"
+msgstr ""
+
+#: includes/slider.php:451
+msgid "You must publish this slider to get the shortcode"
+msgstr ""
+
+#: includes/slider.php:473
+msgid "No slider selected"
+msgstr ""
+
+#: includes/visual-composer.php:65
+msgid "Icon Box"
+msgstr ""
+
+#: includes/visual-composer.php:66
+msgid "Information box with icon"
+msgstr ""
+
+#: includes/visual-composer.php:70 includes/visual-composer.php:251
+#: includes/visual-composer.php:694 includes/visual-composer.php:1164
+#: includes/visual-composer.php:1564 includes/visual-composer.php:2194
+#: includes/visual-composer.php:2296 includes/visual-composer.php:2390
+#: includes/visual-composer.php:2551 includes/visual-composer.php:2700
+#: includes/visual-composer.php:2780 includes/visual-composer.php:2834
+#: includes/visual-composer.php:2931 includes/visual-composer.php:2998
+#: includes/visual-composer.php:3059 includes/visual-composer.php:3139
+#: includes/visual-composer.php:3207 includes/visual-composer.php:3353
+#: includes/visual-composer.php:3504 includes/visual-composer.php:3551
+#: includes/visual-composer.php:3598 includes/visual-composer.php:3662
+#: includes/visual-composer.php:3716 includes/visual-composer.php:3773
+msgid "PenShop"
+msgstr ""
+
+#: includes/visual-composer.php:73 includes/visual-composer.php:3211
+#: includes/visual-composer.php:3362
+msgid "Icon library"
+msgstr ""
+
+#: includes/visual-composer.php:74 includes/visual-composer.php:3212
+msgid "Select icon library."
+msgstr ""
+
+#: includes/visual-composer.php:78 includes/visual-composer.php:3216
+#: includes/visual-composer.php:3368
+msgid "Font Awesome"
+msgstr ""
+
+#: includes/visual-composer.php:79 includes/visual-composer.php:3217
+#: includes/visual-composer.php:3369
+msgid "Open Iconic"
+msgstr ""
+
+#: includes/visual-composer.php:80 includes/visual-composer.php:3218
+#: includes/visual-composer.php:3370
+msgid "Typicons"
+msgstr ""
+
+#: includes/visual-composer.php:81 includes/visual-composer.php:3219
+#: includes/visual-composer.php:3371
+msgid "Entypo"
+msgstr ""
+
+#: includes/visual-composer.php:82 includes/visual-composer.php:3220
+#: includes/visual-composer.php:3372
+msgid "Linecons"
+msgstr ""
+
+#: includes/visual-composer.php:83 includes/visual-composer.php:3221
+#: includes/visual-composer.php:3373
+msgid "Mono Social"
+msgstr ""
+
+#: includes/visual-composer.php:84 includes/visual-composer.php:3222
+#: includes/visual-composer.php:3374
+msgid "Material"
+msgstr ""
+
+#: includes/visual-composer.php:85
+msgid "Custom Image"
+msgstr ""
+
+#: includes/visual-composer.php:89 includes/visual-composer.php:104
+#: includes/visual-composer.php:120 includes/visual-composer.php:136
+#: includes/visual-composer.php:152 includes/visual-composer.php:168
+#: includes/visual-composer.php:184 includes/visual-composer.php:3226
+#: includes/visual-composer.php:3241 includes/visual-composer.php:3257
+#: includes/visual-composer.php:3273 includes/visual-composer.php:3289
+#: includes/visual-composer.php:3305 includes/visual-composer.php:3321
+#: includes/visual-composer.php:3378 includes/visual-composer.php:3393
+#: includes/visual-composer.php:3409 includes/visual-composer.php:3425
+#: includes/visual-composer.php:3441 includes/visual-composer.php:3457
+#: includes/visual-composer.php:3473
+msgid "Icon"
+msgstr ""
+
+#: includes/visual-composer.php:90 includes/visual-composer.php:3227
+#: includes/visual-composer.php:3379
+msgid "Pick an icon from library."
+msgstr ""
+
+#: includes/visual-composer.php:105 includes/visual-composer.php:121
+#: includes/visual-composer.php:137 includes/visual-composer.php:153
+#: includes/visual-composer.php:169 includes/visual-composer.php:185
+#: includes/visual-composer.php:3242 includes/visual-composer.php:3258
+#: includes/visual-composer.php:3274 includes/visual-composer.php:3290
+#: includes/visual-composer.php:3306 includes/visual-composer.php:3322
+#: includes/visual-composer.php:3394 includes/visual-composer.php:3410
+#: includes/visual-composer.php:3426 includes/visual-composer.php:3442
+#: includes/visual-composer.php:3458 includes/visual-composer.php:3474
+msgid "Pick icon from library."
+msgstr ""
+
+#: includes/visual-composer.php:200
+msgid "Icon Image"
+msgstr ""
+
+#: includes/visual-composer.php:201
+msgid "Upload icon image"
+msgstr ""
+
+#: includes/visual-composer.php:212
+msgid "Icon Position"
+msgstr ""
+
+#: includes/visual-composer.php:216
+msgid "Top"
+msgstr ""
+
+#: includes/visual-composer.php:221 includes/visual-composer.php:813
+#: includes/visual-composer.php:952 includes/visual-composer.php:1091
+#: includes/visual-composer.php:1283 includes/visual-composer.php:1509
+#: includes/visual-composer.php:2503 includes/visual-composer.php:2861
+msgid "Title"
+msgstr ""
+
+#: includes/visual-composer.php:228 includes/visual-composer.php:3183
+#: includes/visual-composer.php:3641
+msgid "Content"
+msgstr ""
+
+#: includes/visual-composer.php:231
+msgid "Enter the content of this box"
+msgstr ""
+
+#: includes/visual-composer.php:236 includes/visual-composer.php:263
+#: includes/visual-composer.php:726 includes/visual-composer.php:1196
+#: includes/visual-composer.php:1596 includes/visual-composer.php:2281
+#: includes/visual-composer.php:2375 includes/visual-composer.php:2536
+#: includes/visual-composer.php:2631 includes/visual-composer.php:2765
+#: includes/visual-composer.php:2819 includes/visual-composer.php:2916
+#: includes/visual-composer.php:2983 includes/visual-composer.php:3042
+#: includes/visual-composer.php:3124 includes/visual-composer.php:3190
+#: includes/visual-composer.php:3338 includes/visual-composer.php:3489
+#: includes/visual-composer.php:3536 includes/visual-composer.php:3583
+#: includes/visual-composer.php:3648 includes/visual-composer.php:3693
+#: includes/visual-composer.php:3745 includes/visual-composer.php:3785
+msgid "Extra class name"
+msgstr ""
+
+#: includes/visual-composer.php:239 includes/visual-composer.php:264
+#: includes/visual-composer.php:727 includes/visual-composer.php:1197
+#: includes/visual-composer.php:1597 includes/visual-composer.php:2282
+#: includes/visual-composer.php:2376 includes/visual-composer.php:2537
+#: includes/visual-composer.php:2632 includes/visual-composer.php:2766
+#: includes/visual-composer.php:2820 includes/visual-composer.php:2917
+#: includes/visual-composer.php:2984 includes/visual-composer.php:3043
+#: includes/visual-composer.php:3125 includes/visual-composer.php:3191
+#: includes/visual-composer.php:3339 includes/visual-composer.php:3490
+#: includes/visual-composer.php:3537 includes/visual-composer.php:3584
+#: includes/visual-composer.php:3649 includes/visual-composer.php:3694
+#: includes/visual-composer.php:3748 includes/visual-composer.php:3788
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: includes/visual-composer.php:246
+msgid "Banner Grid 3"
+msgstr ""
+
+#: includes/visual-composer.php:247
+msgid "Grid of 3 banners"
+msgstr ""
+
+#: includes/visual-composer.php:256 includes/visual-composer.php:699
+#: includes/visual-composer.php:1169 includes/visual-composer.php:1569
+msgid "Enter height of the grid"
+msgstr ""
+
+#: includes/visual-composer.php:270 includes/visual-composer.php:409
+#: includes/visual-composer.php:548 includes/visual-composer.php:733
+#: includes/visual-composer.php:872 includes/visual-composer.php:1011
+#: includes/visual-composer.php:1203 includes/visual-composer.php:1429
+#: includes/visual-composer.php:1603 includes/visual-composer.php:1749
+#: includes/visual-composer.php:1895 includes/visual-composer.php:2041
+#: includes/visual-composer.php:2783 includes/visual-composer.php:2837
+#: includes/visual-composer.php:2934 includes/visual-composer.php:3001
+#: includes/visual-composer.php:3142
+msgid "Image"
+msgstr ""
+
+#: includes/visual-composer.php:271 includes/visual-composer.php:734
+#: includes/visual-composer.php:1604 includes/visual-composer.php:2838
+#: includes/visual-composer.php:2935 includes/visual-composer.php:3002
+msgid "Banner Image"
+msgstr ""
+
+#: includes/visual-composer.php:274 includes/visual-composer.php:282
+#: includes/visual-composer.php:302 includes/visual-composer.php:323
+#: includes/visual-composer.php:336 includes/visual-composer.php:347
+#: includes/visual-composer.php:354 includes/visual-composer.php:361
+#: includes/visual-composer.php:380 includes/visual-composer.php:393
+#: includes/visual-composer.php:405 includes/visual-composer.php:737
+#: includes/visual-composer.php:745 includes/visual-composer.php:765
+#: includes/visual-composer.php:786 includes/visual-composer.php:799
+#: includes/visual-composer.php:810 includes/visual-composer.php:817
+#: includes/visual-composer.php:824 includes/visual-composer.php:843
+#: includes/visual-composer.php:856 includes/visual-composer.php:868
+#: includes/visual-composer.php:1215 includes/visual-composer.php:1235
+#: includes/visual-composer.php:1256 includes/visual-composer.php:1269
+#: includes/visual-composer.php:1607 includes/visual-composer.php:1615
+#: includes/visual-composer.php:1635 includes/visual-composer.php:1656
+#: includes/visual-composer.php:1669 includes/visual-composer.php:1680
+#: includes/visual-composer.php:1687 includes/visual-composer.php:1694
+#: includes/visual-composer.php:1701 includes/visual-composer.php:1720
+#: includes/visual-composer.php:1733 includes/visual-composer.php:1745
+msgid "Banner 1"
+msgstr ""
+
+#: includes/visual-composer.php:277 includes/visual-composer.php:416
+#: includes/visual-composer.php:555 includes/visual-composer.php:740
+#: includes/visual-composer.php:879 includes/visual-composer.php:1018
+#: includes/visual-composer.php:1210 includes/visual-composer.php:1362
+#: includes/visual-composer.php:1436 includes/visual-composer.php:1610
+#: includes/visual-composer.php:1756 includes/visual-composer.php:1902
+#: includes/visual-composer.php:2048
+msgid "Image Position (Desktop)"
+msgstr ""
+
+#: includes/visual-composer.php:297 includes/visual-composer.php:436
+#: includes/visual-composer.php:575 includes/visual-composer.php:760
+#: includes/visual-composer.php:899 includes/visual-composer.php:1038
+#: includes/visual-composer.php:1230 includes/visual-composer.php:1382
+#: includes/visual-composer.php:1456 includes/visual-composer.php:1630
+#: includes/visual-composer.php:1776 includes/visual-composer.php:1922
+#: includes/visual-composer.php:2068
+msgid "Image Position (Mobile)"
+msgstr ""
+
+#: includes/visual-composer.php:317 includes/visual-composer.php:456
+#: includes/visual-composer.php:595 includes/visual-composer.php:780
+#: includes/visual-composer.php:919 includes/visual-composer.php:1058
+#: includes/visual-composer.php:1250 includes/visual-composer.php:1402
+#: includes/visual-composer.php:1476 includes/visual-composer.php:1650
+#: includes/visual-composer.php:1796 includes/visual-composer.php:1942
+#: includes/visual-composer.php:2088
+msgid "Custom Image Position (Desktop)"
+msgstr ""
+
+#: includes/visual-composer.php:318 includes/visual-composer.php:331
+#: includes/visual-composer.php:457 includes/visual-composer.php:470
+#: includes/visual-composer.php:596 includes/visual-composer.php:609
+#: includes/visual-composer.php:781 includes/visual-composer.php:794
+#: includes/visual-composer.php:920 includes/visual-composer.php:933
+#: includes/visual-composer.php:1059 includes/visual-composer.php:1072
+#: includes/visual-composer.php:1251 includes/visual-composer.php:1264
+#: includes/visual-composer.php:1403 includes/visual-composer.php:1416
+#: includes/visual-composer.php:1477 includes/visual-composer.php:1490
+#: includes/visual-composer.php:1651 includes/visual-composer.php:1664
+#: includes/visual-composer.php:1797 includes/visual-composer.php:1810
+#: includes/visual-composer.php:1943 includes/visual-composer.php:1956
+#: includes/visual-composer.php:2089 includes/visual-composer.php:2102
+#, php-format
+msgid ""
+"Enter custom image position in format \"vertical horizontal\". Example: "
+"\"10px 40px\" or \"30% 50%\""
+msgstr ""
+
+#: includes/visual-composer.php:330 includes/visual-composer.php:469
+#: includes/visual-composer.php:608 includes/visual-composer.php:793
+#: includes/visual-composer.php:932 includes/visual-composer.php:1071
+#: includes/visual-composer.php:1263 includes/visual-composer.php:1415
+#: includes/visual-composer.php:1489 includes/visual-composer.php:1663
+#: includes/visual-composer.php:1809 includes/visual-composer.php:1955
+#: includes/visual-composer.php:2101
+msgid "Custom Image Position (Mobile)"
+msgstr ""
+
+#: includes/visual-composer.php:343 includes/visual-composer.php:482
+#: includes/visual-composer.php:621 includes/visual-composer.php:806
+#: includes/visual-composer.php:945 includes/visual-composer.php:1084
+#: includes/visual-composer.php:1276 includes/visual-composer.php:1502
+#: includes/visual-composer.php:1676 includes/visual-composer.php:1822
+#: includes/visual-composer.php:1968 includes/visual-composer.php:2114
+#: includes/visual-composer.php:2947 includes/visual-composer.php:3024
+msgid "Link"
+msgstr ""
+
+#: includes/visual-composer.php:344 includes/visual-composer.php:483
+#: includes/visual-composer.php:622 includes/visual-composer.php:807
+#: includes/visual-composer.php:946 includes/visual-composer.php:1085
+#: includes/visual-composer.php:1277 includes/visual-composer.php:1503
+#: includes/visual-composer.php:1677 includes/visual-composer.php:1823
+#: includes/visual-composer.php:1969 includes/visual-composer.php:2115
+#: includes/visual-composer.php:2948 includes/visual-composer.php:3025
+msgid "Banner URL"
+msgstr ""
+
+#: includes/visual-composer.php:350 includes/visual-composer.php:489
+#: includes/visual-composer.php:628 includes/visual-composer.php:1683
+#: includes/visual-composer.php:1829 includes/visual-composer.php:1975
+#: includes/visual-composer.php:2121 includes/visual-composer.php:2703
+#: includes/visual-composer.php:3356
+msgid "Text"
+msgstr ""
+
+#: includes/visual-composer.php:351 includes/visual-composer.php:490
+#: includes/visual-composer.php:629 includes/visual-composer.php:1684
+#: includes/visual-composer.php:1830 includes/visual-composer.php:1976
+#: includes/visual-composer.php:2122
+msgid "Banner text"
+msgstr ""
+
+#: includes/visual-composer.php:357 includes/visual-composer.php:496
+#: includes/visual-composer.php:635 includes/visual-composer.php:1690
+#: includes/visual-composer.php:1836 includes/visual-composer.php:1982
+#: includes/visual-composer.php:2128
+msgid "Font size"
+msgstr ""
+
+#: includes/visual-composer.php:358 includes/visual-composer.php:497
+#: includes/visual-composer.php:636 includes/visual-composer.php:1691
+#: includes/visual-composer.php:1837 includes/visual-composer.php:1983
+#: includes/visual-composer.php:2129
+msgid "Banner text size. Leave it empty to use the default size."
+msgstr ""
+
+#: includes/visual-composer.php:364 includes/visual-composer.php:503
+#: includes/visual-composer.php:642 includes/visual-composer.php:827
+#: includes/visual-composer.php:966 includes/visual-composer.php:1112
+#: includes/visual-composer.php:1303 includes/visual-composer.php:1704
+#: includes/visual-composer.php:1850 includes/visual-composer.php:1996
+#: includes/visual-composer.php:2142
+msgid "Text Position"
+msgstr ""
+
+#: includes/visual-composer.php:365 includes/visual-composer.php:504
+#: includes/visual-composer.php:643 includes/visual-composer.php:828
+#: includes/visual-composer.php:967 includes/visual-composer.php:1113
+#: includes/visual-composer.php:1304 includes/visual-composer.php:1705
+#: includes/visual-composer.php:1851 includes/visual-composer.php:1997
+#: includes/visual-composer.php:2143
+msgid "Banner text position"
+msgstr ""
+
+#: includes/visual-composer.php:369 includes/visual-composer.php:508
+#: includes/visual-composer.php:647 includes/visual-composer.php:832
+#: includes/visual-composer.php:971 includes/visual-composer.php:1117
+#: includes/visual-composer.php:1308 includes/visual-composer.php:1709
+#: includes/visual-composer.php:1855 includes/visual-composer.php:2001
+#: includes/visual-composer.php:2147 includes/visual-composer.php:2903
+#: includes/visual-composer.php:3160
+msgid "Top Left"
+msgstr ""
+
+#: includes/visual-composer.php:370 includes/visual-composer.php:509
+#: includes/visual-composer.php:648 includes/visual-composer.php:833
+#: includes/visual-composer.php:972 includes/visual-composer.php:1118
+#: includes/visual-composer.php:1309 includes/visual-composer.php:1710
+#: includes/visual-composer.php:1856 includes/visual-composer.php:2002
+#: includes/visual-composer.php:2148 includes/visual-composer.php:2904
+#: includes/visual-composer.php:3161
+msgid "Top Center"
+msgstr ""
+
+#: includes/visual-composer.php:371 includes/visual-composer.php:510
+#: includes/visual-composer.php:649 includes/visual-composer.php:834
+#: includes/visual-composer.php:973 includes/visual-composer.php:1119
+#: includes/visual-composer.php:1310 includes/visual-composer.php:1711
+#: includes/visual-composer.php:1857 includes/visual-composer.php:2003
+#: includes/visual-composer.php:2149 includes/visual-composer.php:2905
+#: includes/visual-composer.php:3162
+msgid "Top Right"
+msgstr ""
+
+#: includes/visual-composer.php:372 includes/visual-composer.php:511
+#: includes/visual-composer.php:650 includes/visual-composer.php:835
+#: includes/visual-composer.php:974 includes/visual-composer.php:1120
+#: includes/visual-composer.php:1311 includes/visual-composer.php:1712
+#: includes/visual-composer.php:1858 includes/visual-composer.php:2004
+#: includes/visual-composer.php:2150 includes/visual-composer.php:2906
+#: includes/visual-composer.php:3163
+msgid "Middle Left"
+msgstr ""
+
+#: includes/visual-composer.php:373 includes/visual-composer.php:512
+#: includes/visual-composer.php:651 includes/visual-composer.php:836
+#: includes/visual-composer.php:975 includes/visual-composer.php:1121
+#: includes/visual-composer.php:1312 includes/visual-composer.php:1713
+#: includes/visual-composer.php:1859 includes/visual-composer.php:2005
+#: includes/visual-composer.php:2151 includes/visual-composer.php:2907
+#: includes/visual-composer.php:3164
+msgid "Middle Center"
+msgstr ""
+
+#: includes/visual-composer.php:374 includes/visual-composer.php:513
+#: includes/visual-composer.php:652 includes/visual-composer.php:837
+#: includes/visual-composer.php:976 includes/visual-composer.php:1122
+#: includes/visual-composer.php:1313 includes/visual-composer.php:1714
+#: includes/visual-composer.php:1860 includes/visual-composer.php:2006
+#: includes/visual-composer.php:2152 includes/visual-composer.php:2908
+#: includes/visual-composer.php:3165
+msgid "Middle Right"
+msgstr ""
+
+#: includes/visual-composer.php:375 includes/visual-composer.php:514
+#: includes/visual-composer.php:653 includes/visual-composer.php:838
+#: includes/visual-composer.php:977 includes/visual-composer.php:1123
+#: includes/visual-composer.php:1314 includes/visual-composer.php:1715
+#: includes/visual-composer.php:1861 includes/visual-composer.php:2007
+#: includes/visual-composer.php:2153 includes/visual-composer.php:2909
+#: includes/visual-composer.php:3166
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/visual-composer.php:376 includes/visual-composer.php:515
+#: includes/visual-composer.php:654 includes/visual-composer.php:839
+#: includes/visual-composer.php:978 includes/visual-composer.php:1124
+#: includes/visual-composer.php:1315 includes/visual-composer.php:1716
+#: includes/visual-composer.php:1862 includes/visual-composer.php:2008
+#: includes/visual-composer.php:2154 includes/visual-composer.php:2910
+#: includes/visual-composer.php:3167
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/visual-composer.php:377 includes/visual-composer.php:516
+#: includes/visual-composer.php:655 includes/visual-composer.php:840
+#: includes/visual-composer.php:979 includes/visual-composer.php:1125
+#: includes/visual-composer.php:1316 includes/visual-composer.php:1717
+#: includes/visual-composer.php:1863 includes/visual-composer.php:2009
+#: includes/visual-composer.php:2155 includes/visual-composer.php:2911
+#: includes/visual-composer.php:3168
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/visual-composer.php:383 includes/visual-composer.php:522
+#: includes/visual-composer.php:661 includes/visual-composer.php:846
+#: includes/visual-composer.php:985 includes/visual-composer.php:1131
+#: includes/visual-composer.php:1322 includes/visual-composer.php:1530
+#: includes/visual-composer.php:1723 includes/visual-composer.php:1869
+#: includes/visual-composer.php:2015 includes/visual-composer.php:2161
+#: includes/visual-composer.php:3172 includes/visual-composer.php:3571
+msgid "Text Align"
+msgstr ""
+
+#: includes/visual-composer.php:384 includes/visual-composer.php:523
+#: includes/visual-composer.php:662 includes/visual-composer.php:847
+#: includes/visual-composer.php:986 includes/visual-composer.php:1132
+#: includes/visual-composer.php:1323 includes/visual-composer.php:1531
+#: includes/visual-composer.php:1724 includes/visual-composer.php:1870
+#: includes/visual-composer.php:2016 includes/visual-composer.php:2162
+msgid "Banner text alignment"
+msgstr ""
+
+#: includes/visual-composer.php:396 includes/visual-composer.php:535
+#: includes/visual-composer.php:674 includes/visual-composer.php:859
+#: includes/visual-composer.php:998 includes/visual-composer.php:1144
+#: includes/visual-composer.php:1335 includes/visual-composer.php:1543
+#: includes/visual-composer.php:1736 includes/visual-composer.php:1882
+#: includes/visual-composer.php:2028 includes/visual-composer.php:2174
+msgid "Color scheme"
+msgstr ""
+
+#: includes/visual-composer.php:397 includes/visual-composer.php:536
+#: includes/visual-composer.php:675 includes/visual-composer.php:860
+#: includes/visual-composer.php:999 includes/visual-composer.php:1145
+#: includes/visual-composer.php:1336 includes/visual-composer.php:1544
+#: includes/visual-composer.php:1737 includes/visual-composer.php:1883
+#: includes/visual-composer.php:2029 includes/visual-composer.php:2175
+msgid "Banner text color scheme"
+msgstr ""
+
+#: includes/visual-composer.php:410 includes/visual-composer.php:549
+#: includes/visual-composer.php:873 includes/visual-composer.php:1012
+#: includes/visual-composer.php:1750 includes/visual-composer.php:1896
+#: includes/visual-composer.php:2042
+msgid "The first banner image. It will be used for the tall banner."
+msgstr ""
+
+#: includes/visual-composer.php:413 includes/visual-composer.php:421
+#: includes/visual-composer.php:441 includes/visual-composer.php:462
+#: includes/visual-composer.php:475 includes/visual-composer.php:486
+#: includes/visual-composer.php:493 includes/visual-composer.php:500
+#: includes/visual-composer.php:519 includes/visual-composer.php:532
+#: includes/visual-composer.php:544 includes/visual-composer.php:876
+#: includes/visual-composer.php:884 includes/visual-composer.php:904
+#: includes/visual-composer.php:925 includes/visual-composer.php:938
+#: includes/visual-composer.php:949 includes/visual-composer.php:956
+#: includes/visual-composer.php:963 includes/visual-composer.php:982
+#: includes/visual-composer.php:995 includes/visual-composer.php:1007
+#: includes/visual-composer.php:1753 includes/visual-composer.php:1761
+#: includes/visual-composer.php:1781 includes/visual-composer.php:1802
+#: includes/visual-composer.php:1815 includes/visual-composer.php:1826
+#: includes/visual-composer.php:1833 includes/visual-composer.php:1840
+#: includes/visual-composer.php:1847 includes/visual-composer.php:1866
+#: includes/visual-composer.php:1879 includes/visual-composer.php:1891
+#: includes/visual-composer.php:2927
+msgid "Banner 2"
+msgstr ""
+
+#: includes/visual-composer.php:552 includes/visual-composer.php:560
+#: includes/visual-composer.php:580 includes/visual-composer.php:601
+#: includes/visual-composer.php:614 includes/visual-composer.php:625
+#: includes/visual-composer.php:632 includes/visual-composer.php:639
+#: includes/visual-composer.php:658 includes/visual-composer.php:671
+#: includes/visual-composer.php:683 includes/visual-composer.php:1015
+#: includes/visual-composer.php:1023 includes/visual-composer.php:1043
+#: includes/visual-composer.php:1064 includes/visual-composer.php:1077
+#: includes/visual-composer.php:1088 includes/visual-composer.php:1095
+#: includes/visual-composer.php:1102 includes/visual-composer.php:1109
+#: includes/visual-composer.php:1128 includes/visual-composer.php:1141
+#: includes/visual-composer.php:1153 includes/visual-composer.php:1899
+#: includes/visual-composer.php:1907 includes/visual-composer.php:1927
+#: includes/visual-composer.php:1948 includes/visual-composer.php:1961
+#: includes/visual-composer.php:1972 includes/visual-composer.php:1979
+#: includes/visual-composer.php:1986 includes/visual-composer.php:1993
+#: includes/visual-composer.php:2012 includes/visual-composer.php:2025
+#: includes/visual-composer.php:2037
+msgid "Banner 3"
+msgstr ""
+
+#: includes/visual-composer.php:690
+msgid "Banner Grid 3 Reverse"
+msgstr ""
+
+#: includes/visual-composer.php:691
+msgid "Grid of 3 banners in reverse order"
+msgstr ""
+
+#: includes/visual-composer.php:704 includes/visual-composer.php:1174
+#: includes/visual-composer.php:1574
+msgid "Banner gap"
+msgstr ""
+
+#: includes/visual-composer.php:705 includes/visual-composer.php:1175
+#: includes/visual-composer.php:1575
+msgid "Select gap between banners in grid."
+msgstr ""
+
+#: includes/visual-composer.php:709 includes/visual-composer.php:1179
+#: includes/visual-composer.php:1579 includes/visual-composer.php:2616
+msgid "0px"
+msgstr ""
+
+#: includes/visual-composer.php:710 includes/visual-composer.php:1180
+#: includes/visual-composer.php:1580 includes/visual-composer.php:2617
+msgid "1px"
+msgstr ""
+
+#: includes/visual-composer.php:711 includes/visual-composer.php:1181
+#: includes/visual-composer.php:1581 includes/visual-composer.php:2618
+msgid "2px"
+msgstr ""
+
+#: includes/visual-composer.php:712 includes/visual-composer.php:1182
+#: includes/visual-composer.php:1582 includes/visual-composer.php:2619
+msgid "3px"
+msgstr ""
+
+#: includes/visual-composer.php:713 includes/visual-composer.php:1183
+#: includes/visual-composer.php:1583 includes/visual-composer.php:2620
+msgid "4px"
+msgstr ""
+
+#: includes/visual-composer.php:714 includes/visual-composer.php:1184
+#: includes/visual-composer.php:1584 includes/visual-composer.php:2621
+msgid "5px"
+msgstr ""
+
+#: includes/visual-composer.php:715 includes/visual-composer.php:1185
+#: includes/visual-composer.php:1585 includes/visual-composer.php:2622
+msgid "10px"
+msgstr ""
+
+#: includes/visual-composer.php:716 includes/visual-composer.php:1186
+#: includes/visual-composer.php:1586 includes/visual-composer.php:2623
+msgid "15px"
+msgstr ""
+
+#: includes/visual-composer.php:717 includes/visual-composer.php:1187
+#: includes/visual-composer.php:1587 includes/visual-composer.php:2624
+msgid "20px"
+msgstr ""
+
+#: includes/visual-composer.php:718 includes/visual-composer.php:1188
+#: includes/visual-composer.php:1588 includes/visual-composer.php:2625
+msgid "25px"
+msgstr ""
+
+#: includes/visual-composer.php:719 includes/visual-composer.php:1189
+#: includes/visual-composer.php:1589 includes/visual-composer.php:2626
+msgid "30px"
+msgstr ""
+
+#: includes/visual-composer.php:814 includes/visual-composer.php:953
+#: includes/visual-composer.php:1092 includes/visual-composer.php:1284
+#: includes/visual-composer.php:1510 includes/visual-composer.php:2862
+msgid "Banner title"
+msgstr ""
+
+#: includes/visual-composer.php:820 includes/visual-composer.php:959
+#: includes/visual-composer.php:1098 includes/visual-composer.php:1290
+#: includes/visual-composer.php:1516 includes/visual-composer.php:2868
+msgid "Subtitle"
+msgstr ""
+
+#: includes/visual-composer.php:821 includes/visual-composer.php:960
+#: includes/visual-composer.php:1099 includes/visual-composer.php:1291
+#: includes/visual-composer.php:1517 includes/visual-composer.php:2869
+msgid "Banner subtitle"
+msgstr ""
+
+#: includes/visual-composer.php:1106 includes/visual-composer.php:1524
+#: includes/visual-composer.php:2704
+msgid "Enter button text"
+msgstr ""
+
+#: includes/visual-composer.php:1160
+msgid "Banner Grid 3 Video"
+msgstr ""
+
+#: includes/visual-composer.php:1161
+msgid "Grid of 3 banners including one video"
+msgstr ""
+
+#: includes/visual-composer.php:1204
+msgid "Upload a large image for the large banner."
+msgstr ""
+
+#: includes/visual-composer.php:1207 includes/visual-composer.php:1280
+#: includes/visual-composer.php:1287 includes/visual-composer.php:1294
+#: includes/visual-composer.php:1300 includes/visual-composer.php:1319
+#: includes/visual-composer.php:1332 includes/visual-composer.php:1344
+msgid "Large Banner"
+msgstr ""
+
+#: includes/visual-composer.php:1348
+msgid "Video URL"
+msgstr ""
+
+#: includes/visual-composer.php:1349
+msgid "Enter video URL. It could be a direct url or Youtube URL."
+msgstr ""
+
+#: includes/visual-composer.php:1352 includes/visual-composer.php:1359
+#: includes/visual-composer.php:1367 includes/visual-composer.php:1387
+#: includes/visual-composer.php:1408 includes/visual-composer.php:1421
+msgid "Video"
+msgstr ""
+
+#: includes/visual-composer.php:1355
+msgid "Cover Image"
+msgstr ""
+
+#: includes/visual-composer.php:1356
+msgid "Cover image will be used as placeholder for the video"
+msgstr ""
+
+#: includes/visual-composer.php:1430
+msgid "Banner image"
+msgstr ""
+
+#: includes/visual-composer.php:1433 includes/visual-composer.php:1441
+#: includes/visual-composer.php:1461 includes/visual-composer.php:1482
+#: includes/visual-composer.php:1495 includes/visual-composer.php:1506
+#: includes/visual-composer.php:1513 includes/visual-composer.php:1520
+#: includes/visual-composer.php:1527 includes/visual-composer.php:1540
+#: includes/visual-composer.php:1552
+msgid "Small Banner"
+msgstr ""
+
+#: includes/visual-composer.php:1559
+msgid "Banner Grid 4"
+msgstr ""
+
+#: includes/visual-composer.php:1560
+msgid "Grid of 4 banners"
+msgstr ""
+
+#: includes/visual-composer.php:1698 includes/visual-composer.php:1844
+#: includes/visual-composer.php:1990 includes/visual-composer.php:2136
+msgid "Enter button text if you want to show a button on this banner."
+msgstr ""
+
+#: includes/visual-composer.php:2045 includes/visual-composer.php:2053
+#: includes/visual-composer.php:2073 includes/visual-composer.php:2094
+#: includes/visual-composer.php:2107 includes/visual-composer.php:2118
+#: includes/visual-composer.php:2125 includes/visual-composer.php:2132
+#: includes/visual-composer.php:2139 includes/visual-composer.php:2158
+#: includes/visual-composer.php:2171 includes/visual-composer.php:2183
+msgid "Banner 4"
+msgstr ""
+
+#: includes/visual-composer.php:2190
+msgid "Product Carousel"
+msgstr ""
+
+#: includes/visual-composer.php:2191
+msgid "Product carousel slider"
+msgstr ""
+
+#: includes/visual-composer.php:2197 includes/visual-composer.php:2299
+#: includes/visual-composer.php:2393
+msgid "Product Style"
+msgstr ""
+
+#: includes/visual-composer.php:2198
+msgid "Select product layout style"
+msgstr ""
+
+#: includes/visual-composer.php:2204 includes/visual-composer.php:2305
+#: includes/visual-composer.php:2399
+msgid "Hidden Buttons"
+msgstr ""
+
+#: includes/visual-composer.php:2205 includes/visual-composer.php:2306
+#: includes/visual-composer.php:2400
+msgid "Dark Name Bar"
+msgstr ""
+
+#: includes/visual-composer.php:2209 includes/visual-composer.php:2329
+#: includes/visual-composer.php:2443 includes/visual-composer.php:2566
+#: includes/visual-composer.php:3524
+msgid "Category"
+msgstr ""
+
+#: includes/visual-composer.php:2210 includes/visual-composer.php:2330
+msgid ""
+"Select what categories you want to use. Leave it empty to use all categories."
+msgstr ""
+
+#: includes/visual-composer.php:2221
+msgid "Use Categories as Tabs"
+msgstr ""
+
+#: includes/visual-composer.php:2222
+msgid "Use selected categories as tabs. Each tab will be a single carousel."
+msgstr ""
+
+#: includes/visual-composer.php:2225 includes/visual-composer.php:2232
+#: includes/visual-composer.php:2359 includes/visual-composer.php:2440
+#: includes/visual-composer.php:2520 includes/visual-composer.php:2584
+#: includes/visual-composer.php:2641 includes/visual-composer.php:3081
+#: includes/visual-composer.php:3089 includes/visual-composer.php:3103
+msgid "Yes"
+msgstr ""
+
+#: includes/visual-composer.php:2228 includes/visual-composer.php:2436
+msgid "Adds \"All\" tab"
+msgstr ""
+
+#: includes/visual-composer.php:2229 includes/visual-composer.php:2437
+msgid "Adds \"All\" tab as the default tab."
+msgstr ""
+
+#: includes/visual-composer.php:2240 includes/visual-composer.php:2341
+msgid "Product Type"
+msgstr ""
+
+#: includes/visual-composer.php:2241 includes/visual-composer.php:2342
+msgid "Select product type you want to show"
+msgstr ""
+
+#: includes/visual-composer.php:2245 includes/visual-composer.php:2346
+#: includes/visual-composer.php:2495
+msgid "Recent Products"
+msgstr ""
+
+#: includes/visual-composer.php:2246 includes/visual-composer.php:2347
+#: includes/visual-composer.php:2496
+msgid "Featured Products"
+msgstr ""
+
+#: includes/visual-composer.php:2247 includes/visual-composer.php:2348
+#: includes/visual-composer.php:2497
+msgid "Sale Products"
+msgstr ""
+
+#: includes/visual-composer.php:2248 includes/visual-composer.php:2349
+#: includes/visual-composer.php:2498
+msgid "Best Selling Products"
+msgstr ""
+
+#: includes/visual-composer.php:2249 includes/visual-composer.php:2350
+#: includes/visual-composer.php:2499
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/visual-composer.php:2254 includes/visual-composer.php:2310
+#: includes/visual-composer.php:2404
+msgid "Number Of Products"
+msgstr ""
+
+#: includes/visual-composer.php:2255 includes/visual-composer.php:2311
+#: includes/visual-composer.php:2405
+msgid "Total number of products you want to show. Set -1 to show all products"
+msgstr ""
+
+#: includes/visual-composer.php:2261 includes/visual-composer.php:2317
+#: includes/visual-composer.php:2411 includes/visual-composer.php:2598
+#: includes/visual-composer.php:3514
+msgid "Columns"
+msgstr ""
+
+#: includes/visual-composer.php:2262 includes/visual-composer.php:2318
+#: includes/visual-composer.php:2412
+msgid "Display products in how many columns"
+msgstr ""
+
+#: includes/visual-composer.php:2267 includes/visual-composer.php:2323
+#: includes/visual-composer.php:2417 includes/visual-composer.php:2604
+#: includes/visual-composer.php:3519
+msgid "3 Columns"
+msgstr ""
+
+#: includes/visual-composer.php:2268 includes/visual-composer.php:2324
+#: includes/visual-composer.php:2418 includes/visual-composer.php:2605
+#: includes/visual-composer.php:3520
+msgid "4 Columns"
+msgstr ""
+
+#: includes/visual-composer.php:2269 includes/visual-composer.php:2325
+#: includes/visual-composer.php:2419
+msgid "5 Columns"
+msgstr ""
+
+#: includes/visual-composer.php:2273 includes/visual-composer.php:3116
+msgid "Auto Play"
+msgstr ""
+
+#: includes/visual-composer.php:2274 includes/visual-composer.php:3117
+msgid "Auto play speed in miliseconds. Enter \"0\" to disable auto play."
+msgstr ""
+
+#: includes/visual-composer.php:2292
+msgid "Product Grid"
+msgstr ""
+
+#: includes/visual-composer.php:2293
+msgid "Grid of products"
+msgstr ""
+
+#: includes/visual-composer.php:2300 includes/visual-composer.php:2394
+#: includes/visual-composer.php:3720
+msgid "Select style"
+msgstr ""
+
+#: includes/visual-composer.php:2354 includes/visual-composer.php:2515
+msgid "Load More Button"
+msgstr ""
+
+#: includes/visual-composer.php:2355 includes/visual-composer.php:2516
+msgid "Show a ajax load more button at the end of grid"
+msgstr ""
+
+#: includes/visual-composer.php:2363 includes/visual-composer.php:2524
+msgid "Load More Text"
+msgstr ""
+
+#: includes/visual-composer.php:2364 includes/visual-composer.php:2525
+msgid "Load more button text"
+msgstr ""
+
+#: includes/visual-composer.php:2386
+msgid "Product Tabs"
+msgstr ""
+
+#: includes/visual-composer.php:2387
+msgid "Display product grids in tabs"
+msgstr ""
+
+#: includes/visual-composer.php:2423
+msgid "Tab Type"
+msgstr ""
+
+#: includes/visual-composer.php:2424
+msgid "Select what tab type do you want to use"
+msgstr ""
+
+#: includes/visual-composer.php:2430
+msgid "Categories"
+msgstr ""
+
+#: includes/visual-composer.php:2431 includes/visual-composer.php:2459
+msgid "Tags"
+msgstr ""
+
+#: includes/visual-composer.php:2432 includes/visual-composer.php:2470
+msgid "Groups"
+msgstr ""
+
+#: includes/visual-composer.php:2444
+msgid "Select what categories you want to use."
+msgstr ""
+
+#: includes/visual-composer.php:2460
+msgid "Enter tag slugs. Separates by comma."
+msgstr ""
+
+#: includes/visual-composer.php:2471
+msgid "Select product types as groups."
+msgstr ""
+
+#: includes/visual-composer.php:2490
+msgid "Type"
+msgstr ""
+
+#: includes/visual-composer.php:2491
+msgid "Select product type for this tab"
+msgstr ""
+
+#: includes/visual-composer.php:2504
+msgid "Enter title for this tab."
+msgstr ""
+
+#: includes/visual-composer.php:2547
+msgid "Product Categories"
+msgstr ""
+
+#: includes/visual-composer.php:2548
+msgid "Product category grid"
+msgstr ""
+
+#: includes/visual-composer.php:2554
+msgid "Present"
+msgstr ""
+
+#: includes/visual-composer.php:2555
+msgid "Select style of category item in grid"
+msgstr ""
+
+#: includes/visual-composer.php:2560
+msgid "Default (Square)"
+msgstr ""
+
+#: includes/visual-composer.php:2561
+msgid "Simple (Rectangle)"
+msgstr ""
+
+#: includes/visual-composer.php:2562
+msgid "Dark name bar"
+msgstr ""
+
+#: includes/visual-composer.php:2567
+msgid "Select what categories you want to show"
+msgstr ""
+
+#: includes/visual-composer.php:2579
+msgid "Use custom thumbnail"
+msgstr ""
+
+#: includes/visual-composer.php:2580
+msgid ""
+"Using custom images as category thumbnails instead of default thumbnails"
+msgstr ""
+
+#: includes/visual-composer.php:2588
+msgid "Custom Thumbnails"
+msgstr ""
+
+#: includes/visual-composer.php:2589
+msgid ""
+"Upload images for categories thumbnails. Place them in the same order as the "
+"order of categories"
+msgstr ""
+
+#: includes/visual-composer.php:2599
+msgid "Select number of columns for the grid"
+msgstr ""
+
+#: includes/visual-composer.php:2603
+msgid "2 Columns"
+msgstr ""
+
+#: includes/visual-composer.php:2610
+msgid "Category Gap"
+msgstr ""
+
+#: includes/visual-composer.php:2611
+msgid "Select gap between categories in grid"
+msgstr ""
+
+#: includes/visual-composer.php:2638 includes/visual-composer.php:2643
+#: includes/visual-composer.php:2650 includes/visual-composer.php:2662
+#: includes/visual-composer.php:2673 includes/visual-composer.php:2685
+msgid "Overlay"
+msgstr ""
+
+#: includes/visual-composer.php:2646
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/visual-composer.php:2657
+msgid "Overlay Opacity"
+msgstr ""
+
+#: includes/visual-composer.php:2658
+msgid "Enter overlay opacity. Min 0, max 1."
+msgstr ""
+
+#: includes/visual-composer.php:2669
+msgid "Overlay Hover Color"
+msgstr ""
+
+#: includes/visual-composer.php:2680
+msgid "Overlay Hover Opacity"
+msgstr ""
+
+#: includes/visual-composer.php:2681
+msgid "Enter overlay hover opacity. Min 0, max 1."
+msgstr ""
+
+#: includes/visual-composer.php:2697
+msgid "Button in style"
+msgstr ""
+
+#: includes/visual-composer.php:2711
+msgid "URL (Link)"
+msgstr ""
+
+#: includes/visual-composer.php:2716 includes/visual-composer.php:2789
+#: includes/visual-composer.php:3719
+msgid "Style"
+msgstr ""
+
+#: includes/visual-composer.php:2717
+msgid "Select button style"
+msgstr ""
+
+#: includes/visual-composer.php:2722
+msgid "Outline"
+msgstr ""
+
+#: includes/visual-composer.php:2723
+msgid "Underline"
+msgstr ""
+
+#: includes/visual-composer.php:2724
+msgid "Plain with Arrow Icon"
+msgstr ""
+
+#: includes/visual-composer.php:2729
+msgid "Size"
+msgstr ""
+
+#: includes/visual-composer.php:2730
+msgid "Select button size"
+msgstr ""
+
+#: includes/visual-composer.php:2734
+msgid "Small"
+msgstr ""
+
+#: includes/visual-composer.php:2736
+msgid "Large"
+msgstr ""
+
+#: includes/visual-composer.php:2737
+msgid "X Large"
+msgstr ""
+
+#: includes/visual-composer.php:2742
+msgid "Color"
+msgstr ""
+
+#: includes/visual-composer.php:2743
+msgid "Select button color"
+msgstr ""
+
+#: includes/visual-composer.php:2752
+msgid "Alignment"
+msgstr ""
+
+#: includes/visual-composer.php:2753
+msgid "Select button alignment"
+msgstr ""
+
+#: includes/visual-composer.php:2757 includes/visual-composer.php:2857
+msgid "Inline"
+msgstr ""
+
+#: includes/visual-composer.php:2776
+msgid "Promotion"
+msgstr ""
+
+#: includes/visual-composer.php:2777
+msgid "Promotion banner with button"
+msgstr ""
+
+#: includes/visual-composer.php:2784
+msgid "Background Image"
+msgstr ""
+
+#: includes/visual-composer.php:2790
+msgid "Select promotion style"
+msgstr ""
+
+#: includes/visual-composer.php:2795
+msgid "Bordered"
+msgstr ""
+
+#: includes/visual-composer.php:2799
+msgid "Promotion Text"
+msgstr ""
+
+#: includes/visual-composer.php:2800
+msgid "Enter the banner text content"
+msgstr ""
+
+#: includes/visual-composer.php:2812 includes/visual-composer.php:2881
+msgid "Button Link"
+msgstr ""
+
+#: includes/visual-composer.php:2830
+msgid "Banner"
+msgstr ""
+
+#: includes/visual-composer.php:2831
+msgid "Banner image with text and button"
+msgstr ""
+
+#: includes/visual-composer.php:2843 includes/visual-composer.php:2940
+#: includes/visual-composer.php:3007 includes/visual-composer.php:3148
+msgid "Image size"
+msgstr ""
+
+#: includes/visual-composer.php:2844 includes/visual-composer.php:2941
+#: includes/visual-composer.php:3008 includes/visual-composer.php:3149
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: includes/visual-composer.php:2850
+msgid "Content Present"
+msgstr ""
+
+#: includes/visual-composer.php:2851
+msgid "Select style of banner text."
+msgstr ""
+
+#: includes/visual-composer.php:2856
+msgid "Two lines"
+msgstr ""
+
+#: includes/visual-composer.php:2886 includes/visual-composer.php:2971
+#: includes/visual-composer.php:3561
+msgid "Color Scheme"
+msgstr ""
+
+#: includes/visual-composer.php:2887 includes/visual-composer.php:2898
+#: includes/visual-composer.php:2972
+msgid "Select position for your banner content."
+msgstr ""
+
+#: includes/visual-composer.php:2897
+msgid "Banner Text Position"
+msgstr ""
+
+#: includes/visual-composer.php:2928 includes/visual-composer.php:2995
+msgid "Simple banner with image and text"
+msgstr ""
+
+#: includes/visual-composer.php:2953
+msgid "Banner Text"
+msgstr ""
+
+#: includes/visual-composer.php:2959
+msgid "Text Alignment"
+msgstr ""
+
+#: includes/visual-composer.php:2960
+msgid "Select banner text alignment"
+msgstr ""
+
+#: includes/visual-composer.php:2994
+msgid "Banner Promotion"
+msgstr ""
+
+#: includes/visual-composer.php:3014
+msgid "Image position"
+msgstr ""
+
+#: includes/visual-composer.php:3015
+msgid "Select image position"
+msgstr ""
+
+#: includes/visual-composer.php:3030
+msgid "Banner Title"
+msgstr ""
+
+#: includes/visual-composer.php:3036
+msgid "Banner Content"
+msgstr ""
+
+#: includes/visual-composer.php:3053
+msgid "Carousel"
+msgstr ""
+
+#: includes/visual-composer.php:3054
+msgid "Image carousel"
+msgstr ""
+
+#: includes/visual-composer.php:3063
+msgid "Items"
+msgstr ""
+
+#: includes/visual-composer.php:3064
+msgid "Number of visible items"
+msgstr ""
+
+#: includes/visual-composer.php:3070
+msgid "Items Gap"
+msgstr ""
+
+#: includes/visual-composer.php:3071
+msgid "Gap between items in pixel"
+msgstr ""
+
+#: includes/visual-composer.php:3077
+msgid "Loop"
+msgstr ""
+
+#: includes/visual-composer.php:3078
+msgid "Infinity loop"
+msgstr ""
+
+#: includes/visual-composer.php:3084
+msgid "Auto-width"
+msgstr ""
+
+#: includes/visual-composer.php:3085
+msgid "Do not use equal width items"
+msgstr ""
+
+#: includes/visual-composer.php:3093
+msgid "Carousel height"
+msgstr ""
+
+#: includes/visual-composer.php:3099
+msgid "Full Height"
+msgstr ""
+
+#: includes/visual-composer.php:3100
+msgid "Force the height to fit with viewport. Ignore the option Height above."
+msgstr ""
+
+#: includes/visual-composer.php:3106
+msgid "Decrease Full Height"
+msgstr ""
+
+#: includes/visual-composer.php:3107
+msgid ""
+"Enter element ID or a number. Example: #masthead, #colophon, #somecontainer "
+"or 100px | Height of Slider will be decreased with the height of these "
+"Containers to fit perfect in the screen."
+msgstr ""
+
+#: includes/visual-composer.php:3135
+msgid "Carousel Item"
+msgstr ""
+
+#: includes/visual-composer.php:3143
+msgid "Slide Image"
+msgstr ""
+
+#: includes/visual-composer.php:3155
+msgid "Content Position"
+msgstr ""
+
+#: includes/visual-composer.php:3156
+msgid "Slide text position"
+msgstr ""
+
+#: includes/visual-composer.php:3173
+msgid "Slide text align"
+msgstr ""
+
+#: includes/visual-composer.php:3184
+msgid "Enter content of carousel item."
+msgstr ""
+
+#: includes/visual-composer.php:3201
+msgid "Icon List"
+msgstr ""
+
+#: includes/visual-composer.php:3202
+msgid "List with custom bullet icon"
+msgstr ""
+
+#: includes/visual-composer.php:3349
+msgid "Icon List Item"
+msgstr ""
+
+#: includes/visual-composer.php:3363
+msgid "Use default icon or custom icon for this item."
+msgstr ""
+
+#: includes/visual-composer.php:3367
+msgid "Default Icon"
+msgstr ""
+
+#: includes/visual-composer.php:3500
+msgid "Post Grid"
+msgstr ""
+
+#: includes/visual-composer.php:3501
+msgid "Display posts in grid"
+msgstr ""
+
+#: includes/visual-composer.php:3507
+msgid "Number of posts you want to show"
+msgstr ""
+
+#: includes/visual-composer.php:3508
+msgid "Number of posts"
+msgstr ""
+
+#: includes/visual-composer.php:3515
+msgid "Display posts in how many columns"
+msgstr ""
+
+#: includes/visual-composer.php:3525
+msgid "Enter categories name"
+msgstr ""
+
+#: includes/visual-composer.php:3547
+msgid "Countdown"
+msgstr ""
+
+#: includes/visual-composer.php:3548
+msgid "Countdown digital clock"
+msgstr ""
+
+#: includes/visual-composer.php:3554
+msgid "Date"
+msgstr ""
+
+#: includes/visual-composer.php:3555
+msgid "Enter the date in format: YYYY/MM/DD"
+msgstr ""
+
+#: includes/visual-composer.php:3562
+msgid "Select color"
+msgstr ""
+
+#: includes/visual-composer.php:3572
+msgid "Select text alignment"
+msgstr ""
+
+#: includes/visual-composer.php:3594
+msgid "Google Maps"
+msgstr ""
+
+#: includes/visual-composer.php:3595
+msgid "Google maps in style"
+msgstr ""
+
+#: includes/visual-composer.php:3601
+msgid "API Key"
+msgstr ""
+
+#: includes/visual-composer.php:3602
+msgid "Google requires an API key to work."
+msgstr ""
+
+#: includes/visual-composer.php:3607
+msgid "Address"
+msgstr ""
+
+#: includes/visual-composer.php:3608
+msgid "Enter address for map marker"
+msgstr ""
+
+#: includes/visual-composer.php:3614
+msgid "Marker"
+msgstr ""
+
+#: includes/visual-composer.php:3615
+msgid "Upload custom marker icon or leave this to use default marker."
+msgstr ""
+
+#: includes/visual-composer.php:3620
+msgid "Width"
+msgstr ""
+
+#: includes/visual-composer.php:3621
+msgid "Map width in pixel or percentage."
+msgstr ""
+
+#: includes/visual-composer.php:3628
+msgid "Map height in pixel."
+msgstr ""
+
+#: includes/visual-composer.php:3634
+msgid "Zoom"
+msgstr ""
+
+#: includes/visual-composer.php:3635
+msgid "Enter zoom level. The value is between 1 and 20."
+msgstr ""
+
+#: includes/visual-composer.php:3642
+msgid "Enter content of info window."
+msgstr ""
+
+#: includes/visual-composer.php:3658
+msgid "FAQ"
+msgstr ""
+
+#: includes/visual-composer.php:3659
+msgid "Question and answer toggle"
+msgstr ""
+
+#: includes/visual-composer.php:3666
+msgid "Question"
+msgstr ""
+
+#: includes/visual-composer.php:3667
+msgid "Enter title of toggle block."
+msgstr ""
+
+#: includes/visual-composer.php:3674
+msgid "Answer"
+msgstr ""
+
+#: includes/visual-composer.php:3675
+msgid "Toggle block content."
+msgstr ""
+
+#: includes/visual-composer.php:3679
+msgid "Answer content goes here, click edit button to change this text."
+msgstr ""
+
+#: includes/visual-composer.php:3682
+msgid "Default state"
+msgstr ""
+
+#: includes/visual-composer.php:3683
+msgid "Select \"Open\" if you want toggle to be open by default."
+msgstr ""
+
+#: includes/visual-composer.php:3687
+msgid "Closed"
+msgstr ""
+
+#: includes/visual-composer.php:3688
+msgid "Open"
+msgstr ""
+
+#: includes/visual-composer.php:3712
+msgid "MailChimp Newsletter"
+msgstr ""
+
+#: includes/visual-composer.php:3713
+msgid "Subscribe form of MailChimp for WP"
+msgstr ""
+
+#: includes/visual-composer.php:3724
+msgid "Shadow Box"
+msgstr ""
+
+#: includes/visual-composer.php:3725
+msgid "Bordered Box"
+msgstr ""
+
+#: includes/visual-composer.php:3726
+msgid "Flat"
+msgstr ""
+
+#: includes/visual-composer.php:3731
+msgid "Description"
+msgstr ""
+
+#: includes/visual-composer.php:3733
+msgid "Enter a short description for your subscribe form"
+msgstr ""
+
+#: includes/visual-composer.php:3737
+msgid "Mailchimp Form"
+msgstr ""
+
+#: includes/visual-composer.php:3761
+msgid "Select a slider"
+msgstr ""
+
+#: includes/visual-composer.php:3769
+msgid "PenShop Slider"
+msgstr ""
+
+#: includes/visual-composer.php:3770
+msgid "PenShop image slider"
+msgstr ""
+
+#: includes/visual-composer.php:3776
+msgid "Slider"
+msgstr ""
+
+#: includes/visual-composer.php:3777
+msgid "Select slider"
+msgstr ""
+
+#. Name of the plugin
+msgid "PenShop Addons"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A collection of extra elements for Visual Composer. It is made for PenShop "
+"premium theme and requires PenShop theme installed in order to work properly."
+msgstr ""
+
+#. URI of the plugin
+msgid "http://pencidesign.com/penshop"
+msgstr ""
+
+#. Author of the plugin
+msgid "PenciDesign"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/pencidesign?ref=pencidesign"
+msgstr ""

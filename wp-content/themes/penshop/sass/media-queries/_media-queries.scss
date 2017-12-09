@@ -1,0 +1,974 @@
+@media (max-width: 1199px) {
+	.site-header .site-branding {
+		text-align: center;
+		flex: 1;
+	}
+
+	.header-right,
+	#site-navigation {
+		display: none;
+	}
+
+	//.page-header.has-image {
+	//	padding-top: 150px;
+	//	padding-bottom: 150px;
+	//}
+
+	//.header-transparent .page-header.has-image {
+	//	padding-top: 220px;
+	//}
+
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.penshop-icon-box.icon-left .box-content {
+		padding-right: 0;
+	}
+
+	.penshop-product-carousel .owl-nav {
+		display: none;
+	}
+
+	h2.vc_custom_heading {
+		@include font-size(2.6);
+	}
+
+	.penshop-banner {
+		font-size: 6px;
+	}
+
+	.penshop-banner2 {
+		font-size: 8px;
+	}
+
+	.penshop-banner-grid {
+		font-size: 9px;
+	}
+
+	.penshop-banner-grid-4 .penshop-banner {
+		font-size: 1em;
+	}
+
+	.penshop-banner-promo {
+		font-size: 8px;
+		width: 100%;
+
+		.banner-image {
+			flex-grow: 1;
+			flex-shrink: 0;
+			max-width: 55%;
+
+			a,
+			img {
+				display: block;
+			}
+
+			img {
+				max-width: 100%;
+				display: block;
+			}
+		}
+
+		.banner-content {
+			flex-grow: 1;
+		}
+
+		.banner-text {
+			font-size: 1.4rem;
+		}
+	}
+
+	.penshop-product-category-grid.columns-4 .penshop-product-category-grid__cat-name {
+		letter-spacing: 0;
+	}
+
+	.penshop-product-category-grid.style-simple .penshop-product-category-grid__cat-name {
+		font-size: 4em;
+	}
+
+	.penshop-countdown .box {
+		padding-left: 20px;
+		padding-right: 20px;
+		min-width: 0;
+
+		.time {
+			@include font-size(5);
+		}
+
+		.title {
+			@include font-size(1.4);
+		}
+	}
+
+	.penshop-slider {
+		.slide-content {
+			width: 100%;
+		}
+	}
+
+	.penshop-carousel {
+		.owl-nav .owl-prev {
+			left: 0;
+		}
+
+		.owl-nav .owl-next {
+			right: 0;
+		}
+	}
+
+	.woocommerce {
+		ul.products li.product {
+			&.first {
+				clear: none;
+			}
+
+			.woocommerce-loop-product__title {
+				@include font-size(1.6);
+			}
+		}
+	}
+
+	.woocommerce-checkout ul.payment_methods li label,
+	.woocommerce-checkout .woocommerce-checkout-payment .wc-terms-and-conditions label {
+		line-height: 1.35;
+	}
+
+	.modal-popup .close-btn {
+		display: block;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.woocommerce ul.products li.product.col-md-4:nth-child(3n+1) {
+		clear: left;
+	}
+
+	.woocommerce ul.products li.product.col-md-3:nth-child(4n+1) {
+		clear: left;
+	}
+}
+
+@media (max-width: 991px) {
+	.related-posts .post:nth-child(n+3) {
+		display: none;
+	}
+
+	.site-content .primary-sidebar {
+		display: none;
+	}
+
+	.penshop-icon-box.icon-left {
+		.box-icon {
+			width: 80px;
+			padding-right: 20px;
+			padding-top: 20px;
+
+			i {
+				@include font-size(3.8);
+			}
+		}
+
+		.box-title,
+		.box-content {
+			padding-left: 80px;
+		}
+	}
+
+	.penshop-post-grid.columns-3 .post:nth-child(n+3) {
+		display: none;
+	}
+
+	.penshop-newsletter {
+		.newsletter-text {
+			width: 80%;
+		}
+
+		.newsletter-form {
+			width: 100%;
+			padding: 0 30px;
+		}
+	}
+
+	.penshop-banner-alone {
+		&.penshop-banner .banner-content {
+			text-align: center;
+			width: 100%;
+			padding: 0 30px;
+			left: 50%;
+			top: 50%;
+			bottom: auto;
+			right: auto;
+			transform: translate(-50%, -50%);
+		}
+
+		.button-wrapper {
+			display: none;
+		}
+
+		.banner-subtitle {
+			margin-bottom: 0;
+		}
+	}
+
+	.penshop-banner2 .banner-title {
+		padding: 30px;
+	}
+
+	.penshop-banner-grid-3-reverse .banner-content {
+		padding: 30px;
+	}
+
+	.penshop-banner-grid-3-video .penshop-banner-grid__banner3 .banner-subtitle {
+		margin-bottom: 20px;
+	}
+
+	.penshop-banner-grid-4 {
+		.penshop-banner {
+			font-size: 7px;
+		}
+
+		.banner-content {
+			padding: 30px;
+		}
+	}
+
+	.penshop-product-category-grid.columns-4 .penshop-product-category-grid__cat {
+		width: 50%;
+	}
+
+	.penshop-product-category-grid .penshop-product-category-grid__cat-name {
+		letter-spacing: 0;
+	}
+
+	.penshop-countdown .box {
+		padding-left: 15px;
+		padding-right: 15px;
+
+		.time {
+			@include font-size(4);
+		}
+	}
+
+	.penshop-banner-promo {
+		font-size: 6px;
+
+		.banner-image {
+			max-width: 53%;
+		}
+
+		.banner-content {
+			padding-right: 0;
+		}
+
+		&.image-right .banner-content {
+			padding-left: 0;
+		}
+	}
+
+	div.penshop-contact-form {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+
+	.error-404 {
+		.page-content {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+
+	.woocommerce {
+		div.product {
+			div.images,
+			div.summary {
+				width: 100%;
+				float: none;
+			}
+
+			div.summary {
+				padding-left: 0;
+				margin-bottom: 50px;
+			}
+		}
+
+		#reviews #comments,
+		#reviews #review_form_wrapper {
+			width: 100%;
+			float: none;
+		}
+
+		.products-toolbar .shop-quick-access ul li,
+		.products-toolbar .shop-tools ul li {
+			margin-right: 10px;
+		}
+
+		ul.products.product-style-dark_name li.product .woocommerce-loop-product__title {
+			@include font-size(1.4);
+
+			a {
+				display: block;
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		}
+	}
+
+	.woocommerce-account {
+		.woocommerce-MyAccount-navigation,
+		.woocommerce-MyAccount-content {
+			width: 100%;
+			padding: 0;
+		}
+
+		.woocommerce-MyAccount-navigation {
+			text-align: center;
+			margin-bottom: 30px;
+
+			&:after {
+				display: none;
+			}
+
+			ul li {
+				display: inline-block;
+				padding: 0 10px;
+				border-bottom: 2px solid transparent;
+
+				&.is-active {
+					border-bottom-color: $color__active;
+				}
+			}
+
+			ul a {
+				@include font-size(1.4);
+			}
+		}
+
+		.woocommerce-MyAccount-content {
+			border-left: 0;
+		}
+	}
+
+	.woocommerce-cart {
+		.coupon label {
+			display: none;
+		}
+
+		.cart-collaterals .cart_totals {
+			display: block;
+
+			h2 {
+				display: block;
+				width: 100%;
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	.woocommerce-checkout {
+		.checkout {
+			.col2-set,
+			#order_review_heading,
+			#order_review {
+				width: 100%;
+				float: none;
+				padding-left: 0;
+				padding-right: 0;
+			}
+
+			#order_review_heading {
+				margin-top: 30px;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.woocommerce ul.products li.product.col-sm-4:nth-child(3n+1) {
+		clear: left;
+	}
+}
+
+@media (max-width: 767px) {
+	//.page-header,
+	//.page-header.has-image {
+	//	padding-top: 60px;
+	//	padding-bottom: 60px;
+	//}
+
+	//.header-transparent .page-header.has-image {
+	//	padding-top: 130px;
+	//}
+
+	.page-header .page-title {
+		@include font-size(3.8);
+	}
+
+	.page-template-parallax {
+		&.header-transparent .site-header {
+			margin-top: 0;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.site-header .container-fluid {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.site-content {
+			padding-top: 15px;
+
+			> .container {
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+		}
+
+		.penshop-carousel .owl-stage-outer {
+			margin-left: -15px;
+			margin-right: -15px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+
+	.vc_row {
+		> .container,
+		> .container-fluid {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	h2.vc_custom_heading {
+		@include font-size(2.2);
+	}
+
+	.penshop-slider {
+		.penshop-slider__slide {
+			font-size: 13px;
+		}
+
+		.slide-content {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.slide-layer {
+			white-space: inherit;
+		}
+
+		.owl-nav {
+			display: none;
+		}
+	}
+
+	.penshop-product-category-grid {
+		&.columns-2,
+		&.columns-4 {
+			.penshop-product-category-grid__cat {
+				font-size: 8px;
+			}
+		}
+
+		&.columns-3 {
+			.penshop-product-category-grid__cat {
+				width: 100%;
+			}
+		}
+	}
+
+	.penshop-promotion {
+		padding: 30px;
+
+		&.promotion-type-bordered {
+			background-position: center center;
+			background-size: auto 100%;
+		}
+	}
+
+	.penshop-banner-promo {
+		flex-direction: column;
+
+		.banner-image,
+		.banner-content {
+			width: 100%;
+			max-width: 100%;
+		}
+
+		.banner-content {
+			padding: 20px 0 0 0;
+		}
+
+		.banner-title {
+			margin: 0 0 10px;
+		}
+
+		&.image-right {
+			.banner-content {
+				padding-right: 0;
+				padding-top: 0;
+			}
+
+			.banner-title {
+				margin-right: 0;
+			}
+		}
+	}
+
+	.penshop-newsletter .mc4wp-form-fields {
+		display: block;
+
+		button,
+		input,
+		select,
+		textarea {
+			width: 100%;
+			margin-bottom: 15px;
+		}
+	}
+
+	.penshop-banner-grid-3 {
+		.penshop-banner-grid__banner {
+			font-size: 7px;
+			width: 100%;
+		}
+
+		.penshop-banner-grid__banner1 {
+			padding-right: 0;
+			height: 50%;
+		}
+
+		.penshop-banner-grid__banner2,
+		.penshop-banner-grid__banner3 {
+			padding-top: 15px;
+			padding-left: 0;
+			height: 25%;
+		}
+
+		.penshop-banner-grid__banner2 {
+			top: 50%;
+		}
+
+		.penshop-banner-grid__banner3 {
+			padding-top: 0;
+		}
+	}
+
+	.penshop-banner-grid-3-reverse {
+		.penshop-banner-grid__banner {
+			width: 100%;
+		}
+
+		.penshop-banner-grid__banner1,
+		.penshop-banner-grid__banner2 {
+			height: 25%;
+		}
+
+		.penshop-banner-grid__banner2 {
+			bottom: 50%;
+		}
+
+		.penshop-banner-grid__banner3 {
+			height: 50%;
+			top: auto;
+			bottom: 0;
+		}
+	}
+
+	.penshop-banner-grid-3-video {
+		.penshop-banner-grid__banner {
+			width: 100%;
+		}
+
+		.penshop-banner-grid__banner1 {
+			height: 50%;
+		}
+
+		.penshop-banner-grid__banner2,
+		.penshop-banner-grid__banner3 {
+			height: 25%;
+		}
+
+		.penshop-banner-grid__banner2 {
+			top: 50%;
+		}
+	}
+
+	.penshop-banner-grid-4 {
+		.penshop-banner-grid__banner {
+			width: 100%;
+			height: 25%;
+		}
+
+		.penshop-banner-grid__banner2 {
+			top: 25%;
+		}
+
+		.penshop-banner-grid__banner3 {
+			bottom: 25%;
+		}
+	}
+
+	.penshop-post-grid.columns-3 .post:nth-child(n+3) {
+		display: block;
+	}
+
+	.penshop-product-category-grid.style-simple .penshop-product-category-grid__cat-name {
+		font-size: 2.4em;
+	}
+
+	.penshop-carousel {
+		.penshop-carousel-item {
+			overflow: hidden;
+		}
+
+		.penshop-carousel-item img {
+			max-width: none;
+			object-fit: cover;
+			object-position: center center;
+		}
+
+		.owl-dots {
+			text-align: center;
+		}
+	}
+
+	.site-main {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.list-post {
+		.entry-header,
+		.post-summary {
+			width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.entry-header {
+			margin-bottom: 20px;
+		}
+	}
+
+	.entry-footer {
+		.tags-links,
+		.post-share {
+			text-align: left;
+			width: 100%;
+		}
+
+		.tags-links {
+			margin-bottom: 15px;
+		}
+	}
+
+	.comment-list .children article {
+		padding-left: 20px;
+	}
+
+	.comment {
+		.comment-author {
+			display: none;
+		}
+
+		.comment-meta {
+			margin-left: 0;
+		}
+
+		&.depth-3 article {
+			padding-left: 40px;
+		}
+
+		&.depth-4 article {
+			padding-left: 60px;
+		}
+
+		&.depth-5 article {
+			padding-left: 80px;
+		}
+	}
+
+	.comment-respond .comment-form {
+		.comment-form-author,
+		.comment-form-email,
+		.comment-form-url {
+			width: 100%;
+			padding-right: 0;
+			padding-left: 0;
+			float: none;
+		}
+	}
+
+	.related-posts .post:nth-child(n+3) {
+		display: block;
+	}
+
+	.portfolio-items.layout-fullwidth .portfolio:before {
+		padding-top: 100%;
+	}
+
+	.error-404 {
+		padding: 30px;
+
+		.page-header .page-title {
+			@include font-size(10);
+		}
+	}
+
+	.footer-sidebar {
+		margin-bottom: 15px;
+	}
+
+	.footer-2-columns .site-footer {
+		> .container {
+			display: flex;
+			flex-direction: column-reverse;
+		}
+
+		.site-info,
+		.footer-right {
+			text-align: center;
+			width: 100%;
+		}
+
+		.site-info {
+			padding-top: 20px;
+			padding-right: 0;
+		}
+
+		.footer-right {
+			padding-left: 0;
+		}
+	}
+
+	.woocommerce {
+		#review_form #respond {
+			.comment-form-author,
+			.comment-form-email {
+				width: 100%;
+			}
+		}
+
+		.products-toolbar {
+			.shop-quick-access {
+				display: none;
+			}
+
+			.shop-tools .filter-toggle {
+				float: left;
+
+				a {
+					padding-left: 0;
+				}
+			}
+
+			.filter-panel .widget {
+				width: 50%;
+				float: left;
+				margin-bottom: 20px;
+
+				&:nth-child(2n+1) {
+					clear: left;
+				}
+			}
+		}
+
+		ul.products li.product {
+			&:nth-child(2n+1) {
+				clear: left;
+			}
+
+			.add-to-cart-button {
+				font-size: 0;
+
+				i {
+					@include font-size(1.2);
+					line-height: 28px;
+					display: inline-block;
+				}
+
+				&.loading {
+					padding-right: 5px;
+
+					i {
+						opacity: 0;
+					}
+
+					&:after {
+						@include font-size(1.2);
+					}
+				}
+			}
+		}
+
+		&.shop-list ul.products li.product {
+			width: 50%;
+
+			.product-header {
+				width: 100%;
+				margin-right: 0;
+				margin-bottom: 20px;
+				float: none;
+			}
+
+			.product-summary {
+				text-align: center;
+				margin-left: 0;
+
+				.price {
+					@include font-size(1.6);
+					text-align: center;
+					margin-bottom: 10px;
+
+					del {
+						vertical-align: top;
+					}
+
+					.amount {
+						@include font-size(1.6);
+					}
+				}
+			}
+
+			.woocommerce-loop-product__title {
+				@include font-size(1.6);
+			}
+
+			.woocommerce-product-details__short-description {
+				display: none;
+			}
+		}
+
+		table.wishlist_table {
+			tr td.product-thumbnail {
+				width: 70px;
+				padding-right: 10px;
+			}
+
+			.product-stock-status,
+			.product-add-to-cart {
+				display: none;
+			}
+		}
+	}
+
+	.woocommerce-cart {
+		table.cart {
+			.product-name {
+				img {
+					width: 50px;
+					margin-right: 10px;
+				}
+			}
+
+			.product-quantity {
+				min-width: 104px;
+			}
+
+			.product-subtotal {
+				display: none;
+			}
+
+			td.actions {
+				padding: 15px;
+
+				.actions-inputs {
+					display: block;
+				}
+
+				.coupon {
+					padding-right: 0;
+					margin-bottom: 20px;
+				}
+
+				.update-cart {
+					width: 100%;
+				}
+			}
+		}
+
+		.cart-collaterals .cart_totals {
+			padding: 15px;
+
+			table th {
+				@include font-size(1.4);
+			}
+		}
+	}
+
+	.woocommerce-checkout {
+		.penshop-checkout-coupon,
+		.penshop-checkout-login {
+			width: 100%;
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.penshop-checkout-login + .penshop-checkout-coupon {
+			padding-left: 0;
+		}
+	}
+
+	.woocommerce-account .col2-set .col-1,
+	.woocommerce-account .col2-set .col-2 {
+		width: 100%;
+	}
+
+	.modal-popup {
+		.popup-image {
+			display: none;
+		}
+
+		.popup-content {
+			width: 100%;
+
+			input {
+				text-align: center;
+			}
+		}
+	}
+
+	.modal-search {
+		form {
+			padding: 0 15px;
+			top: 250px;
+		}
+
+		.spinner,
+		.search-submit {
+			right: 15px;
+		}
+
+		.close-btn {
+			right: 50%;
+			margin-right: -28px;
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	.admin-bar .headroom--not-top {
+		top: 0;
+	}
+
+	.header-layout-v1 .is-sticky .main-navigation,
+	.is-sticky .header-main {
+		top: 0 !important;
+	}
+}
+
+@media (max-width: 360px) {
+	.penshop-banner .banner-content {
+		padding: 30px;
+	}
+
+	.woocommerce {
+		ul.products li.product {
+			width: 100%;
+		}
+	}
+}

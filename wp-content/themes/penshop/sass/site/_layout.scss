@@ -1,0 +1,141 @@
+.container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5,
+.col-xs-2-5, .col-sm-2-5, .col-md-2-5, .col-lg-2-5,
+.col-xs-3-5, .col-sm-3-5, .col-md-3-5, .col-lg-3-5,
+.col-xs-4-5, .col-sm-4-5, .col-md-4-5, .col-lg-4-5 {
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.col-xs-1-5 {
+	width: 20%;
+	float: left;
+}
+
+.col-xs-2-5 {
+	width: 40%;
+	float: left;
+}
+
+.col-xs-3-5 {
+	width: 60%;
+	float: left;
+}
+
+.col-xs-4-5 {
+	width: 80%;
+	float: left;
+}
+
+@media (min-width: 768px) {
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.col-sm-2-5 {
+		width: 40%;
+		float: left;
+	}
+	.col-sm-3-5 {
+		width: 60%;
+		float: left;
+	}
+	.col-sm-4-5 {
+		width: 80%;
+		float: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.col-md-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.col-md-2-5 {
+		width: 40%;
+		float: left;
+	}
+	.col-md-3-5 {
+		width: 60%;
+		float: left;
+	}
+	.col-md-4-5 {
+		width: 80%;
+		float: left;
+	}
+}
+
+@media (min-width: 1200px) {
+	.col-lg-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.col-lg-2-5 {
+		width: 40%;
+		float: left;
+	}
+	.col-lg-3-5 {
+		width: 60%;
+		float: left;
+	}
+	.col-lg-4-5 {
+		width: 80%;
+		float: left;
+	}
+}
+
+.site-content {
+	padding: 60px 0;
+
+	.widget-area {
+		padding-left: 45px;
+	}
+
+	.shop-sidebar {
+		padding-right: 30px;
+	}
+}
+
+.has-page-header .site-content {
+	padding-top: 90px;
+	padding-bottom: 120px;
+}
+
+.content-no-top-padding .site-content {
+	padding-top: 0 !important;
+}
+
+.content-no-bottom-padding .site-content {
+	padding-bottom: 0 !important;
+}
+
+.sidebar-content .site-content {
+	.widget-area {
+		float: left;
+		padding-left: 15px;
+		padding-right: 45px;
+	}
+
+	.content-area {
+		float: right;
+	}
+}
+
+.sidebar-content,
+.content-sidebar {
+	.container-fluid {
+		.widget-area {
+			width: 330px;
+		}
+
+		.content-area {
+			width: calc(100% - 330px);
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.search {
+	.hentry.list-post {
+		margin-bottom: 60px;
+	}
+
+	.product {
+		width: 100%;
+
+		.price {
+			@include font-size(1.6);
+			font-weight: 500;
+			color: $color__primary;
+			line-height: 1;
+			margin: 20px 0;
+			display: block;
+
+			ins {
+				background: transparent;
+			}
+		}
+
+		&.sale .price {
+			direction: rtl;
+			text-align: left;
+
+			del {
+				font-size: 80%;
+			}
+		}
+	}
+
+	.entry-summary {
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+
+	.entry-summary p:last-child {
+		margin-bottom: 0;
+	}
+}

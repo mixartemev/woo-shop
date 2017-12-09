@@ -1,0 +1,75 @@
+span.wpcf7-not-valid-tip {
+	@include font-size(1.2);
+}
+
+div.wpcf7-validation-errors {
+	margin: 0 0 30px;
+}
+
+.fa-spin {
+	-webkit-animation: fa-spin 0.6s infinite linear;
+	animation: fa-spin 0.6s infinite linear;
+}
+
+.loading-icon {
+	border: 2px solid #fff;
+	border-radius: 32px;
+	border-right-color: transparent !important;
+	border-top-color: transparent !important;
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+}
+
+.loading-bubbles {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+
+	* {
+		animation-play-state: paused;
+	}
+
+	> span {
+		width: 10px;
+		height: 10px;
+		background-color: $color__primary;
+		border-radius: 50%;
+		display: inline-block;
+		margin: 0 5px;
+		transform-origin: 50% 50%;
+		-webkit-animation: bouncedelay 1.4s infinite ease-in-out both;
+		animation: bouncedelay 1.4s infinite ease-in-out both;
+	}
+
+	.bounce1 {
+		-webkit-animation-delay: -0.32s;
+		animation-delay: -0.32s;
+	}
+
+	.bounce2 {
+		-webkit-animation-delay: -0.16s;
+		animation-delay: -0.16s;
+	}
+}
+
+@-webkit-keyframes bouncedelay {
+	0%, 100% {
+		-webkit-transform: scale(0)
+	}
+	50% {
+		-webkit-transform: scale(1.0)
+	}
+}
+
+@keyframes bouncedelay {
+	0%, 100% {
+		-webkit-transform: scale(0);
+		transform: scale(0);
+	}
+	50% {
+		-webkit-transform: scale(1.0);
+		transform: scale(1.0);
+	}
+}

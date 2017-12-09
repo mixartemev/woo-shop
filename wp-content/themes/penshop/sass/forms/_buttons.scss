@@ -1,0 +1,22 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	color: #fff;
+	font-weight: 600;
+	line-height: 40px;
+	text-transform: uppercase;
+	padding: 0 15px;
+	border: 0;
+	background: $color__background-button;
+	transition: 0.3s;
+
+	&:hover {
+		border-color: $color__border-button-hover;
+	}
+
+	&:active,
+	&:focus {
+		border-color: $color__border-button-focus;
+	}
+}
