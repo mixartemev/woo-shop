@@ -254,8 +254,8 @@ th {
 body {
 	color: #666666;
 	font-family: "Roboto", sans-serif;
-	font-size: 15px;
-	font-size: 1.5rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 	line-height: 1.7;
 	-ms-word-wrap: break-word;
 	word-wrap: break-word;
@@ -1489,8 +1489,8 @@ a:hover, a:active {
 ## Menu Icons
 --------------------------------------------------------------*/
 .menu-icons {
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 21px;
+	font-size: 2.1rem;
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -1502,6 +1502,7 @@ a:hover, a:active {
 	display: inline-block;
 	margin-left: 20px;
 	position: relative;
+	margin-top: -4px;
 }
 
 .menu-icons li:first-child {
@@ -4275,7 +4276,7 @@ a:hover, a:active {
 
 .woocommerce ul.products li.product {
 	text-align: center;
-	margin-bottom: 60px;
+	margin-bottom: 45px;
 	-webkit-transition: opacity 700ms, -webkit-transform 700ms ease-in-out;
 	transition: opacity 700ms, -webkit-transform 700ms ease-in-out;
 	transition: opacity 700ms, transform 700ms ease-in-out;
@@ -4294,7 +4295,7 @@ a:hover, a:active {
 .woocommerce ul.products li.product .product-header {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 
 .woocommerce ul.products li.product .buttons {
@@ -4384,7 +4385,7 @@ a:hover, a:active {
 	color: #111;
 	text-align: center;
 	line-height: 1;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 }
 
 .woocommerce ul.products li.product .price del {
@@ -4801,13 +4802,13 @@ a:hover, a:active {
 }
 
 .woocommerce .products-toolbar {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .woocommerce .products-toolbar .shop-quick-access,
 .woocommerce .products-toolbar .shop-tools {
-	font-size: 12px;
-	font-size: 1.2rem;
+	font-size: 14px;
+	font-size: 1.4rem;
 	font-family: "Poppins", sans-serif;
 	line-height: 2;
 }
@@ -6339,7 +6340,7 @@ a:hover, a:active {
 }
 
 .footer-widgets {
-	padding: 50px 0 60px;
+	padding: 25px 0 30px;
 	border-top: 1px solid #dedede;
 }
 
@@ -7270,18 +7271,18 @@ a:hover, a:active {
 .widget_product_categories li .count .count:after {
 	content: "";
 }
-
+/*
 .widget_product_categories ul {
 	color: #111;
 	list-style: disc;
 	padding-left: 20px;
 }
-
+*/
 .widget_product_categories li a {
-	font-size: 14px;
-	font-size: 1.4rem;
-	font-weight: 400;
-	text-transform: none;
+	font-size: 18px;
+	font-size: 1.8rem;
+	font-weight: 600;
+	/*text-transform: none;*/
 }
 
 .widget_layered_nav .count {
@@ -8238,7 +8239,7 @@ a[class*='lightcase-icon-'].lightcase-icon-pause, a[class*='lightcase-icon-'].li
 	-webkit-box-align: end;
 	-webkit-align-items: flex-end;
 	    -ms-flex-align: end;
-	            -ms-grid-row-align: flex-end;
+	-ms-grid-row-align: flex-end;
 	        align-items: flex-end;
 }
 
@@ -10723,7 +10724,7 @@ object {
 	.penshop-banner-promo .banner-content {
 		-webkit-box-flex: 1;
 		-webkit-flex-grow: 1;
-		    -ms-flex-positive: 1;
+		-ms-flex-positive: 1;
 		        flex-grow: 1;
 	}
 	.penshop-banner-promo .banner-text {

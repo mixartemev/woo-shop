@@ -20,7 +20,7 @@ msgstr ""
 
 #: 404.php:23
 msgid "OOPS! Page you're looking for doesn't exist. Please use search for help"
-msgstr ""
+msgstr "Шта!?"
 
 #: archive-portfolio.php:50 inc/customizer/panels/portfolio.php:51
 msgid "Load More"
@@ -159,7 +159,7 @@ msgstr ""
 #: woocommerce/product-searchform.php:27 inc/customizer/panels/header.php:426
 #: inc/customizer/panels/mobile.php:27
 msgid "Search"
-msgstr ""
+msgstr "Поиск"
 
 #: single-portfolio.php:29
 msgid "Project navigation"
@@ -217,35 +217,35 @@ msgstr ""
 
 #: inc/template-tags.php:454 template-parts/menu-icons.php:49
 msgid "Shopping Cart"
-msgstr ""
+msgstr "Корзина"
 
 #: inc/woocommerce.php:267
 msgid "Filter"
-msgstr ""
+msgstr "Фильтры"
 
 #: inc/woocommerce.php:508
 msgid "Hot"
-msgstr ""
+msgstr "Хит"
 
 #: inc/woocommerce.php:512
 msgid "New"
-msgstr ""
+msgstr "Новинка"
 
 #: inc/woocommerce.php:516
 msgid "Sold Out"
-msgstr ""
+msgstr "Продано"
 
 #: inc/woocommerce.php:621 inc/woocommerce.php:622
 msgid "Quick View"
-msgstr ""
+msgstr "Быстрый просмотр"
 
 #: inc/woocommerce.php:663
 msgid "Load More Products"
-msgstr ""
+msgstr "Еще! Хочу еще!"
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
-msgstr ""
+msgstr "Нету ничего.."
 
 #. 1: link to WP admin new post page.
 #: template-parts/content-none.php:25
@@ -732,11 +732,11 @@ msgstr ""
 
 #: inc/frontend/breadcrumbs.php:54
 msgid "Home"
-msgstr ""
+msgstr "Главная"
 
 #: inc/frontend/breadcrumbs.php:55
 msgid "Archives"
-msgstr ""
+msgstr "Архив"
 
 #: inc/frontend/breadcrumbs.php:57
 msgid "Search results for"
@@ -744,7 +744,7 @@ msgstr ""
 
 #: inc/frontend/breadcrumbs.php:58
 msgid "Not Found"
-msgstr ""
+msgstr "Не найдено"
 
 #: inc/frontend/breadcrumbs.php:59
 msgid "Author Archives:"
@@ -770,27 +770,27 @@ msgstr ""
 
 #: inc/frontend/comments.php:66
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "Ваш коментарий ожидает модерации."
 
 #: inc/frontend/comments.php:80
 msgid "Reply"
-msgstr ""
+msgstr "Ответить"
 
 #: inc/frontend/comments.php:83
 msgid "Edit"
-msgstr ""
+msgstr "Редактировать"
 
 #: inc/frontend/comments.php:99
 msgid "Your Name"
-msgstr ""
+msgstr "Ваше имя"
 
 #: inc/frontend/comments.php:103
 msgid "Your Email"
-msgstr ""
+msgstr "Ваш email"
 
 #: inc/frontend/comments.php:108
 msgid "Website"
-msgstr ""
+msgstr "Сайт"
 
 #: inc/frontend/footer.php:163
 msgid "Enter your keyword..."
@@ -810,26 +810,26 @@ msgstr ""
 
 #: inc/widgets/account.php:71
 msgid "My Account"
-msgstr ""
+msgstr "Мой аккаунт"
 
 #: inc/widgets/account.php:73
 msgid "Sign Out"
-msgstr ""
+msgstr "Войти"
 
 #: inc/widgets/account.php:76
 msgid "Sign In"
-msgstr ""
+msgstr "Выйти"
 
 #: inc/widgets/account.php:79
 msgid "Join"
-msgstr ""
+msgstr "Регистрация"
 
 #: inc/widgets/account.php:104 inc/widgets/currency.php:137
 #: inc/widgets/instagram.php:115 inc/widgets/languages.php:128
 #: inc/widgets/popular-posts.php:121 inc/widgets/price-ranges.php:137
 #: inc/widgets/products-order.php:117 inc/widgets/socials.php:102
 msgid "Title"
-msgstr ""
+msgstr "Название"
 
 #: inc/widgets/currency.php:31
 msgid "PenShop - Currency Switcher"
@@ -970,7 +970,7 @@ msgstr ""
 
 #: inc/widgets/products-order.php:16
 msgid "Sort by"
-msgstr ""
+msgstr "Сортировать по"
 
 #: inc/widgets/products-order.php:21
 msgid "PenShop - Products Ordering"
@@ -982,23 +982,23 @@ msgstr ""
 
 #: inc/widgets/products-order.php:58
 msgid "Popularity"
-msgstr ""
+msgstr "Популярности"
 
 #: inc/widgets/products-order.php:59
 msgid "Average rating"
-msgstr ""
+msgstr "Рейтингу"
 
 #: inc/widgets/products-order.php:60
 msgid "Newness"
-msgstr ""
+msgstr "Новизне"
 
 #: inc/widgets/products-order.php:61
 msgid "Price: low to high"
-msgstr ""
+msgstr "Цене: сначала дешевые"
 
 #: inc/widgets/products-order.php:62
 msgid "Price: high to low"
-msgstr ""
+msgstr "Цене: сначала дорогие"
 
 #: inc/widgets/socials.php:23 inc/customizer/panels/blog.php:30
 #: inc/customizer/panels/portfolio.php:93 inc/customizer/panels/shop.php:301
