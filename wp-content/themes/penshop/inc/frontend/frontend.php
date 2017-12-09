@@ -158,16 +158,19 @@ function penshop_customize_css() {
 
 	if ( $logo_width || $logo_height ) {
 		$logo_css = '';
+		$logo_css_sticky = '';
 
 		if ( $logo_width ) {
 			$logo_css .= 'width: ' . esc_attr( $logo_width ) . 'px;';
+			$logo_css_sticky .= 'width: ' . esc_attr( $logo_width/1.5 ) . 'px;';
 		}
 
 		if ( $logo_height ) {
 			$logo_css .= 'height: ' . esc_attr( $logo_height ) . 'px;';
+			$logo_css_sticky .= 'height: ' . esc_attr( $logo_height/1.5 ) . 'px;';
 		}
 
-		$css .= '.site-branding .logo img {' . $logo_css . '}';
+		$css .= '.site-branding .logo img {' . $logo_css . '} .is-sticky .site-branding .logo img {' . $logo_css_sticky . '}';
 	}
 
 	// Logo margin

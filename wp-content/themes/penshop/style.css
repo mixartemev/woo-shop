@@ -1771,7 +1771,7 @@ a:hover, a:active {
 }
 
 .site-content {
-	padding: 60px 0;
+	padding: 30px 0;
 }
 
 .site-content .widget-area {
@@ -1933,8 +1933,8 @@ a:hover, a:active {
 }
 
 .header-main {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .header-main .container,
@@ -2233,6 +2233,10 @@ a:hover, a:active {
 	transition: 0.3s;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+.is-sticky .headroom--not-top.header-main {
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
 .admin-bar .headroom--not-top {
